@@ -505,6 +505,7 @@ meta {
 }
 .us_sy {
   position: relative;
+  overflow: hidden;
 }
 .us_le_c {
   position: absolute;

@@ -8,7 +8,7 @@
  -->
 <template>
   <div id="app">
-    <topBar ref="xxooo"></topBar>
+    <topBar ref="donghua"></topBar>
     <router-view></router-view>
     <footed></footed>
   </div>
@@ -27,7 +27,7 @@ export default {
   },
   methods: {
     dh() {
-      this.$refs.xxooo.animation();
+      this.$refs.donghua.animation();
     }
   }
 };

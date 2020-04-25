@@ -10,20 +10,20 @@
             <router-link to="/we">我们</router-link>
             <dl class="select">
               <dd>
-                <router-link to="/index"></router-link>
+                <router-link to="/we">公司简介</router-link>
               </dd>
               <dd>
                 <router-link to="/member" class="fnt_16">金盛人</router-link>
               </dd>
             </dl>
           </li>
-          <li>业务</li>
-          <li>投资者中心</li>
-          <li>可持续发展</li>
-          <li>党建创新</li>
           <li>
-            <router-link to="/member">传媒视点</router-link>
+            <router-link to="/news">新闻动态</router-link>
           </li>
+          <li>企业文化</li>
+          <li>工程动态</li>
+          <li>员工风采</li>
+          <li>联系我们</li>
           <li class="el-icon-search"></li>
         </ul>
       </div>

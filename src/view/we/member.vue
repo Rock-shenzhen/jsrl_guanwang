@@ -7,7 +7,7 @@
  * @FilePath: \jsrl_guanwang\jsrl_gw\src\view\we\member.vue
  -->
 <template>
-  <div>成员页面</div>
+  <div>金盛人</div>
 </template>
 
 <script>

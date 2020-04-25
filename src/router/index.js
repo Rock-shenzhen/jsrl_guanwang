@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-04-24 10:28:58
- * @LastEditTime: 2020-04-24 11:24:22
+ * @LastEditTime: 2020-04-25 23:58:26
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \jsrl_guanwang\jsrl_gw\src\router\index.js
@@ -15,6 +15,7 @@ import home from '../view/home/index'
 import news from '../view/news/index'
 import we from '../view/we/index'
 import member from '../view/we/member'
+import culture from '../view/we/culture'
 
 const router = new VueRouter({
     routes: [{
@@ -38,12 +39,38 @@ const router = new VueRouter({
                 {
                     path: '/we',
                     name: 'we',
-                    component: we
+                    component: we,
+                    children: [{
+                            path: '/culture',
+                            name: 'culture',
+                            component: culture
+                        },
+                        {
+                            path: '/history',
+                            name: 'history',
+                            component: history
+                        },
+                        {
+                            path: '/organization',
+                            name: 'organization',
+                            component: organization
+                        },
+                        {
+                            path: '/leadership',
+                            name: 'leadership',
+                            component: leadership
+                        },
+                        {
+                            path: '/member',
+                            name: 'member',
+                            component: member
+                        },
+                    ]
                 },
                 {
-                    path: '/member',
-                    name: 'member',
-                    component: member
+                    path: '/culture',
+                    name: 'culture',
+                    component: culture
                 },
             ]
         }

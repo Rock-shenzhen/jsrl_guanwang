@@ -8,18 +8,29 @@
  -->
 <template>
   <div id="app">
+    <topBar></topBar>
     <router-view></router-view>
+    <footed></footed>
   </div>
 </template>
 
+
+
 <script>
+import topBar from "./components/topBar";
+import footed from "./components/footed";
 export default {
-  name: "App"
+  name: "App",
+  components: {
+    topBar,
+    footed
+  }
 };
 </script>
 
-<style>
+
+<style lang="less" scoped>
 #app {
-  height:100%;
+  height: 100%;
 }
 </style>

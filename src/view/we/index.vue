@@ -381,7 +381,11 @@
 </template>
 
 <script>
-export default {};
+export default {
+  mounted() {
+    this.$parent.$parent.dh();
+  }
+};
 </script>
 
 <style>

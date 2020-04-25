@@ -76,6 +76,10 @@ export default {
     animation() {
       let logo = document.getElementsByClassName("logo")[0];
       let nav = document.getElementsByClassName("nav")[0];
+      if (logo.offsetTop === 0 && nav.offsetLeft === 500) {
+        logo.style.top = "-100px";
+        nav.style.left = "650px";
+      }
 
       (function test() {
         let weizhi = logo.offsetTop;

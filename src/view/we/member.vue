@@ -12,10 +12,11 @@
 
 <script>
 export default {
-
-}
+  mounted() {
+    this.$parent.$parent.dh();
+  }
+};
 </script>
 
 <style>
-
 </style>

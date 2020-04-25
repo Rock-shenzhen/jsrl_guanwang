@@ -8,7 +8,7 @@
  -->
 <template>
   <div id="app">
-    <topBar></topBar>
+    <topBar ref="xxooo"></topBar>
     <router-view></router-view>
     <footed></footed>
   </div>
@@ -24,6 +24,11 @@ export default {
   components: {
     topBar,
     footed
+  },
+  methods: {
+    dh() {
+      this.$refs.xxooo.animation();
+    }
   }
 };
 </script>

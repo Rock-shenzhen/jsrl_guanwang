@@ -13,7 +13,11 @@
 </template>
 
 <script>
-export default {};
+export default {
+  mounted() {
+    this.$parent.dh();
+  }
+};
 </script>
 
 <style lang="less" scoped>

@@ -21,99 +21,99 @@
             </div>
           </div>
         </div>
-        <div class="wrap_con_us">
-          <div class="sub_main_us cf min_h_us">
-            <div class="us_year fnt_60 mt_10">2020</div>
-            <a href="http://www.jxcc.com:80/channel/748a941674804fbd864e321366debcf3.html">
-              <ul class="us_list">
-                <li>
-                  <p></p>
-                </li>
-                <li>
-                  <p></p>
-                  <h1 class="fnt_22">财富世界500强</h1>
-                  <p></p>
-                  <p class="fnt_18 mt_5">以348.7亿美元的营业收入位列《财富》世界500强第358位</p>
-                  <p></p>
-                </li>
-                <li>
-                  <p></p>
-                </li>
-                <li>
-                  <p></p>
-                  <h1 class="fnt_22">财富中国500强</h1>
-                  <p></p>
-                  <p class="fnt_18 mt_5">江西铜业以2152.9亿元的营业收入和24.47亿元的净利润位列榜单第45位</p>
-                  <p class="fnt_18 mt_5">恒邦股份以212亿元的营业收入和4.06亿元的净利润位列榜单第393位</p>
-                  <p></p>
-                </li>
-                <li>
-                  <p></p>
-                </li>
-                <li>
-                  <p></p>
-                  <h1 class="fnt_22">《福布斯》全球企业2000强</h1>
-                  <p></p>
-                  <p class="fnt_18 mt_5">位居2019《福布斯》全球企业2000强第1227位</p>
-                  <p></p>
-                </li>
-                <li>
-                  <p></p>
-                </li>
-                <li>
-                  <p></p>
-                  <h1 class="fnt_22">中国企业500强</h1>
-                  <p></p>
-                  <p class="fnt_18 mt_5">以2306.54亿元的营业收入位居2019中国企业500强第88位</p>
-                  <p></p>
-                </li>
-              </ul>
-              <p>
-                <br />
-              </p>
+      </div>
+      <div class="wrap_con_us">
+        <div class="sub_main_us cf min_h_us">
+          <div class="us_year fnt_60 mt_10">2020</div>
+          <a href="http://www.jxcc.com:80/channel/748a941674804fbd864e321366debcf3.html">
+            <ul class="us_list">
+              <li>
+                <p></p>
+              </li>
+              <li>
+                <p></p>
+                <h1 class="fnt_22">财富世界500强</h1>
+                <p></p>
+                <p class="fnt_18 mt_5">以348.7亿美元的营业收入位列《财富》世界500强第358位</p>
+                <p></p>
+              </li>
+              <li>
+                <p></p>
+              </li>
+              <li>
+                <p></p>
+                <h1 class="fnt_22">财富中国500强</h1>
+                <p></p>
+                <p class="fnt_18 mt_5">江西铜业以2152.9亿元的营业收入和24.47亿元的净利润位列榜单第45位</p>
+                <p class="fnt_18 mt_5">恒邦股份以212亿元的营业收入和4.06亿元的净利润位列榜单第393位</p>
+                <p></p>
+              </li>
+              <li>
+                <p></p>
+              </li>
+              <li>
+                <p></p>
+                <h1 class="fnt_22">《福布斯》全球企业2000强</h1>
+                <p></p>
+                <p class="fnt_18 mt_5">位居2019《福布斯》全球企业2000强第1227位</p>
+                <p></p>
+              </li>
+              <li>
+                <p></p>
+              </li>
+              <li>
+                <p></p>
+                <h1 class="fnt_22">中国企业500强</h1>
+                <p></p>
+                <p class="fnt_18 mt_5">以2306.54亿元的营业收入位居2019中国企业500强第88位</p>
+                <p></p>
+              </li>
+            </ul>
+            <p>
+              <br />
+            </p>
+          </a>
+        </div>
+      </div>
+      <div class="us_con_flist">
+        <ul>
+          <li>
+            <a href="http://www.jxcc.com:80/channel/fd5aab01a1df42ca80541b9eb611eedb.html">
+              <img src="../../assets/us_p01.jpg" />
+              <h1 class="fnt_26 mt_25">组织架构</h1>
+            </a>
+          </li>
+          <li>
+            <a href="http://www.jxcc.com:80/channel/4ccb06d3fa614beebeb737f89c09f998.html">
+              <img src="../../assets/us_p02.jpg" />
+              <h1 class="fnt_26 mt_25">发展历程</h1>
+            </a>
+          </li>
+          <li>
+            <a href="http://www.jxcc.com:80/channel/56545073c89342b1b58688b97b9a40a1.html">
+              <img src="../../assets/us_p03.jpg" />
+              <h1 class="fnt_26 mt_25">高管团队</h1>
+            </a>
+          </li>
+          <li>
+            <a href="http://www.jxcc.com:80/channel/fbc9bc1708e44538a53dcb44d7b06ebb.html">
+              <img src="../../assets/us_p04.jpg" />
+              <h1 class="fnt_26 mt_25">金盛人</h1>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="us_sy_con cf pt_100">
+        <div class="us_sy">
+          <div class="us_le_c" style="width: 665.6px; height: 665.6px;">
+            <a href="http://www.jxcc.com:80/channel/b4e6324bc52c40dd8fb15ff0234b468d.html">
+              <img src="../../assets/a5ee48403bbd4959b268ce5de4a3eef6.jpg" />
             </a>
           </div>
-        </div>
-        <div class="us_con_flist">
-          <ul>
-            <li>
-              <a href="http://www.jxcc.com:80/channel/fd5aab01a1df42ca80541b9eb611eedb.html">
-                <img src="../../assets/us_p01.jpg" />
-                <h1 class="fnt_26 mt_25">组织架构</h1>
-              </a>
-            </li>
-            <li>
-              <a href="http://www.jxcc.com:80/channel/4ccb06d3fa614beebeb737f89c09f998.html">
-                <img src="../../assets/us_p02.jpg" />
-                <h1 class="fnt_26 mt_25">发展历程</h1>
-              </a>
-            </li>
-            <li>
-              <a href="http://www.jxcc.com:80/channel/56545073c89342b1b58688b97b9a40a1.html">
-                <img src="../../assets/us_p03.jpg" />
-                <h1 class="fnt_26 mt_25">高管团队</h1>
-              </a>
-            </li>
-            <li>
-              <a href="http://www.jxcc.com:80/channel/fbc9bc1708e44538a53dcb44d7b06ebb.html">
-                <img src="../../assets/us_p04.jpg" />
-                <h1 class="fnt_26 mt_25">金盛人</h1>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="us_sy_con cf pt_100">
-          <div class="us_sy">
-            <div class="us_le_c" style="width: 665.6px; height: 665.6px;">
-              <a href="http://www.jxcc.com:80/channel/b4e6324bc52c40dd8fb15ff0234b468d.html">
-                <img src="../../assets/a5ee48403bbd4959b268ce5de4a3eef6.jpg" />
-              </a>
-            </div>
-            <div class="us_ri_c" style="width: 665.6px; height: 665.6px; margin-top: 66.56px;">
-              <h1 class="fnt_36">事业宣言</h1>
-              <p>身处新的发展阶段，立足新的发展起点，我们需要更加坚定的信念，来坚守内心深处的那份契约我们建立愿景，重构使命，是为了寻找更加清晰的激励和启示；</p>
-              <p>我们反省责任与价值，是为了闪耀企业属性之中的人本光辉。 我们深知，文化是江铜事业的正向磁场江铜事业宣言，是江铜员工理想信念和精神气质的另一种表达。</p>
-            </div>
+          <div class="us_ri_c" style="width: 665.6px; height: 665.6px; margin-top: 66.56px;">
+            <h1 class="fnt_36">事业宣言</h1>
+            <p>身处新的发展阶段，立足新的发展起点，我们需要更加坚定的信念，来坚守内心深处的那份契约我们建立愿景，重构使命，是为了寻找更加清晰的激励和启示；</p>
+            <p>我们反省责任与价值，是为了闪耀企业属性之中的人本光辉。 我们深知，文化是江铜事业的正向磁场江铜事业宣言，是江铜员工理想信念和精神气质的另一种表达。</p>
           </div>
         </div>
       </div>

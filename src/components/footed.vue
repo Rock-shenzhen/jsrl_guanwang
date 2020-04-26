@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-04-24 10:36:33
- * @LastEditTime: 2020-04-26 16:20:51
+ * @LastEditTime: 2020-04-26 18:09:16
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \jsrl_guanwang\src\components\footed.vue
@@ -19,20 +19,16 @@
       </div>
       <div class="right">
         <div class="ico">
-          <div class="weibo">
-            <a href="https://weibo.com/u/6424935273?is_all=1"></a>
-          </div>
-          <div class="weixin">
-            <img src="" alt="">
-          </div>
-          <div class="douyin">
-            <img src="" alt="">
-          </div>
-          <div class="chengguanju">
-            <img src="" alt="">
-          </div>
-          <div class="kaifengwang">
-            <img src="" alt="">
+          <div>
+            <a class="chengguanju" href="http://cgzfj.kaifeng.gov.cn"></a>
+            <a class="kaifengwang" href=" http://www.kf.cn"></a>
+            <a class="douyin" href="https://weibo.com/u/6424935273?is_all=1"></a>
+            <a class="weixin" href="https://weibo.com/u/6424935273?is_all=1">
+              <div class="ewm_img" style="display: none;">
+                <img src="http://www.jxcc.com:80/static/img/jt_weixin.jpg" />
+              </div>
+            </a>
+            <a class="weibo" href="https://weibo.com/u/6424935273?is_all=1"></a>
           </div>
         </div>
         <p>友情链接</p>
@@ -83,26 +79,47 @@ export default {};
         // width: 100px;
         height: 40px;
         > div {
-          float: right;
-          width: 40px;
-          height: 40px;
-          margin-left: 10px;
-          border-radius: 5px;
-        }
-        .weibo {
-          background-color: #f0f;
-        }
-        .weixin {
-          background-color: #ff0;
-        }
-        .douyin {
-          background-color: #f0f;
-        }
-        .chengguanju {
-          background-color: #f0f;
-        }
-        .kaifengwang {
-          background-color: #f0f;
+          a {
+            float: right;
+            width: 40px;
+            height: 40px;
+            margin-left: 10px;
+            border-radius: 5px;
+          }
+          .weibo {
+            background: url("../assets/f_wb.png") no-repeat;
+          }
+          .weixin {
+            background: url("../assets/f_wx.png") no-repeat;
+            &:hover {
+              .ewm_img {
+                display: none;
+                cursor: pointer;
+                background: #fff;
+                padding: 10px;
+                position: absolute;
+                bottom: 36px;
+                left: 50%;
+                width: 110px;
+                height: 110px;
+                margin-left: -110px;
+                img {
+                  transition: all 0.5s;
+                  border: 0;
+                  display: inline-block;
+                }
+              }
+            }
+          }
+          .douyin {
+            background: url("../assets/f_wb.png") no-repeat;
+          }
+          .chengguanju {
+            background: url("../assets/f_wb.png") no-repeat;
+          }
+          .kaifengwang {
+            background: url("../assets/f_wb.png") no-repeat;
+          }
         }
       }
       p {

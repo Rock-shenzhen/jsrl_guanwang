@@ -2,7 +2,7 @@
   <div id="topBar">
     <div class="warp">
       <div class="logo">
-        <img src alt />
+        <img src="../assets/logo_20190731102143.png" alt />
       </div>
       <div class="nav">
         <ul>
@@ -39,20 +39,31 @@ export default {
           name: "关于我们",
           to: "/we",
           children: [
-            { name: "企业文化", to: "/culture" },
             { name: "公司简介", to: "/we" },
+            { name: "企业文化", to: "/culture" },
             { name: "发展历程", to: "/history" },
             { name: "组织架构", to: "/organization" },
             { name: "高管团队", to: "/leadership" },
-            { name: "金盛人", to: "/member" }
+            { name: "金盛人", to: "/member" },
+            { name: "团队建设", to: "/tdjs" },
+            { name: "招聘信息", to: "/job" }
+          ]
+        },
+        {
+          name: "业务平台",
+          to: "/yewu",
+          children: [
+            { name: "用热报装", to: "/yrbzpt" },
+            { name: "网上营业厅", to: "/yewu" },
+            { name: "网上商城", to: "/wssc" }
           ]
         },
         {
           name: "企业风采",
           to: "/enterprise",
           children: [
-            { name: "员工生活", to: "/life" },
-            { name: "企业活动", to: "/enterprise" }
+            { name: "企业活动", to: "/enterprise" },
+            { name: "员工生活", to: "/life" }
           ]
         },
         {
@@ -65,9 +76,19 @@ export default {
             { name: "政策法规", to: "/zcfg" }
           ]
         },
-        { name: "工程动态", to: "/gcdt" },
-        { name: "招聘信息", to: "/job" },
-        { name: "在线留言", to: "/zxly" }
+        {
+          name: "社会责任",
+          to: "/shzr",
+          children: [
+            { name: "社会公益", to: "/shzr" },
+            { name: "科技创新", to: "/kjcx" }
+          ]
+        },
+        {
+          name: "在线留言",
+          to: "/zxly",
+          children: [{ name: "投诉建议", to: "/tsjy" }]
+        }
       ]
     };
   },
@@ -109,7 +130,7 @@ export default {
 
 <style lang="less" scoped>
 #topBar {
-  // background-color: #f0f;
+  // background-color: #2e3092;
   .warp {
     margin: 0 auto;
     position: relative;
@@ -117,11 +138,12 @@ export default {
     height: 110px;
     .logo {
       position: absolute;
-      top: -100px;
       left: 0;
-      width: 300px;
-      height: 100px;
-      background-color: #ff0;
+      background-color: #2e3092;
+      img {
+        width: 100%;
+        bottom: 0px;
+      }
     }
     .nav {
       position: absolute;
@@ -144,7 +166,7 @@ export default {
           }
           .sanjiaoxing {
             position: absolute;
-            bottom: 7px;
+            bottom: 1px;
             left: 50%;
             width: 6px;
             height: 6px;

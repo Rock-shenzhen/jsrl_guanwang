@@ -1,3 +1,11 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-04-24 10:36:33
+ * @LastEditTime: 2020-04-26 16:20:51
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \jsrl_guanwang\src\components\footed.vue
+ -->
 <template>
   <div id="footed">
     <div class="warp">
@@ -11,10 +19,23 @@
       </div>
       <div class="right">
         <div class="ico">
-          <div class="weixin"></div>
-          <div class="weibo"></div>
+          <div class="weibo">
+            <a href="https://weibo.com/u/6424935273?is_all=1"></a>
+          </div>
+          <div class="weixin">
+            <img src="" alt="">
+          </div>
+          <div class="douyin">
+            <img src="" alt="">
+          </div>
+          <div class="chengguanju">
+            <img src="" alt="">
+          </div>
+          <div class="kaifengwang">
+            <img src="" alt="">
+          </div>
         </div>
-        <p>技术支持: you see see you one day day 的</p>
+        <p>友情链接</p>
       </div>
     </div>
   </div>
@@ -65,13 +86,22 @@ export default {};
           float: right;
           width: 40px;
           height: 40px;
-          margin-left: 20px;
+          margin-left: 10px;
           border-radius: 5px;
+        }
+        .weibo {
+          background-color: #f0f;
         }
         .weixin {
           background-color: #ff0;
         }
-        .weibo {
+        .douyin {
+          background-color: #f0f;
+        }
+        .chengguanju {
+          background-color: #f0f;
+        }
+        .kaifengwang {
           background-color: #f0f;
         }
       }

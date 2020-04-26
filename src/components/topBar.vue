@@ -34,38 +34,40 @@ export default {
     return {
       current: -1,
       navBar: [
-        { name: "网站首页", to: "/xxx" },
+        { name: "网站首页", to: "/home" },
         {
           name: "关于我们",
-          to: "/xxx",
+          to: "/we",
           children: [
-            { name: "企业概况", to: "/ooo" },
-            { name: "企业文化", to: "/ooo" }
+            { name: "企业文化", to: "/culture" },
+            { name: "公司简介", to: "/we" },
+            { name: "发展历程", to: "/history" },
+            { name: "组织架构", to: "/organization" },
+            { name: "高管团队", to: "/leadership" },
+            { name: "金盛人", to: "/member" }
           ]
         },
         {
-          name: "企业相册",
-          to: "/xxx",
+          name: "企业风采",
+          to: "/enterprise",
           children: [
-            { name: "企业活动", to: "/ooo" },
-            { name: "员工生活", to: "/ooo" }
+            { name: "员工生活", to: "/life" },
+            { name: "企业活动", to: "/enterprise" }
           ]
         },
         {
           name: "新闻公告",
-          to: "/xxx",
+          to: "/news",
           children: [
-            { name: "行业新闻", to: "/ooo" },
-            { name: "公司新闻", to: "/ooo" },
-            { name: "公司公告", to: "/ooo" },
-            { name: "政策法规", to: "/ooo" }
+            { name: "公司新闻", to: "/news" },
+            { name: "行业新闻", to: "/hyxw" },
+            { name: "公司公告", to: "/gsgg" },
+            { name: "政策法规", to: "/zcfg" }
           ]
         },
-        { name: "工程动态", to: "/xxx" },
-        { name: "招聘信息", to: "/xxx" },
-        { name: "企业文化", to: "/xxx" },
-        { name: "在线留言", to: "/xxx" },
-        { name: "搜索", to: "/xxx" }
+        { name: "工程动态", to: "/gcdt" },
+        { name: "招聘信息", to: "/job" },
+        { name: "在线留言", to: "/zxly" }
       ]
     };
   },

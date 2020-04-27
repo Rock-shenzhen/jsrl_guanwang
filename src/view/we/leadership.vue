@@ -30,25 +30,25 @@
               <ul>
                 <li>
                   <div class="gg_l mb_40">
-                    <img src="../../assets/174dd62500c740f7a987f7cf621e775a.jpg" alt />
+                    <img src="" alt />
                   </div>
                   <div class="gg_r mb_40" style="height: 420.345px;">
-                    <h1 class="fnt_24">龙子平</h1>
+                    <h1 class="fnt_24">高管姓名</h1>
                     <h2 class="fnt_14">
-                      江西铜业集团有限公司党委书记 董事长
-                      <br />江西铜业股份有限公司党委书记 董事长 执行董事
+                      开封市金盛热力有限公司 职务
+                      <br />兼任职务或荣誉
                     </h2>
                   </div>
                 </li>
                 <li>
                   <div class="gg_l mb_40">
-                    <img src="../../assets/5ecf77a13d6b4573b06ee4f97e0a529b.jpg" alt />
+                    <img src="" alt />
                   </div>
                   <div class="gg_r mb_40" style="height: 420.345px;">
-                    <h1 class="fnt_24">郑高清</h1>
+                    <h1 class="fnt_24">高管姓名</h1>
                     <h2 class="fnt_14">
-                      江西铜业股份有限公司
-                      <br />党委副书记 总经理 执行董事
+                      开封市金盛热力有限公司 职务
+                      <br />兼任职务或荣誉
                     </h2>
                   </div>
                 </li>
@@ -58,85 +58,85 @@
               <ul>
                 <li>
                   <div class="gg_ps">
-                    <img src="../../assets/5485b7032a694b04a8ee763ffe2c241b.jpg" />
+                    <img src="" />
                   </div>
                   <span>
-                    <h1 class="fnt_16 mt_10">汪波</h1>
+                    <h1 class="fnt_16 mt_10">高管姓名</h1>
                     <h2 class="fnt_14 mt_5">
-                      江西铜业股份有限公司
-                      <br />党委副书记 执行董事
+                      开封市金盛热力有限公司 职务
+                      <br />兼任职务或荣誉
                     </h2>
                   </span>
                 </li>
                 <li>
                   <div class="gg_ps">
-                    <img src="../../assets/5485b7032a694b04a8ee763ffe2c241b.jpg" />
+                    <img src="" />
                   </div>
                   <span>
-                    <h1 class="fnt_16 mt_10">胡庆文</h1>
+                    <h1 class="fnt_16 mt_10">高管姓名</h1>
                     <h2 class="fnt_14 mt_5">
-                      江西铜业股份有限公司
-                      <br />党委委员 纪委书记 监事会主席
+                      开封市金盛热力有限公司 职务
+                      <br />兼任职务或荣誉
                     </h2>
                   </span>
                 </li>
                 <li>
                   <div class="gg_ps">
-                    <img src="../../assets/5485b7032a694b04a8ee763ffe2c241b.jpg" />
+                    <img src="" />
                   </div>
                   <span>
-                    <h1 class="fnt_16 mt_10">刘方云</h1>
+                    <h1 class="fnt_16 mt_10">高管姓名</h1>
                     <h2 class="fnt_14 mt_5">
-                      江西铜业股份有限公司
-                      <br />党委委员 副总经理
+                      开封市金盛热力有限公司 职务
+                      <br />兼任职务或荣誉
                     </h2>
                   </span>
                 </li>
                 <li>
                   <div class="gg_ps">
-                    <img src="../../assets/5485b7032a694b04a8ee763ffe2c241b.jpg" />
+                    <img src="" />
                   </div>
                   <span>
-                    <h1 class="fnt_16 mt_10">廖新庚</h1>
+                    <h1 class="fnt_16 mt_10">高管姓名</h1>
                     <h2 class="fnt_14 mt_5">
-                      江西铜业股份有限公司
-                      <br />党委委员 副总经理
+                      开封市金盛热力有限公司 职务
+                      <br />兼任职务或荣誉
                     </h2>
                   </span>
                 </li>
                 <li>
                   <div class="gg_ps">
-                    <img src="../../assets/5485b7032a694b04a8ee763ffe2c241b.jpg" />
+                    <img src="" />
                   </div>
                   <span>
-                    <h1 class="fnt_16 mt_10">余彤</h1>
+                    <h1 class="fnt_16 mt_10">高管姓名</h1>
                     <h2 class="fnt_14 mt_5">
-                      江西铜业股份有限公司
-                      <br />党委委员 财务总监 执行董事
+                      开封市金盛热力有限公司 职务
+                      <br />兼任职务或荣誉
                     </h2>
                   </span>
                 </li>
                 <li>
                   <div class="gg_ps">
-                    <img src="../../assets/5485b7032a694b04a8ee763ffe2c241b.jpg" />
+                    <img src="" />
                   </div>
                   <span>
-                    <h1 class="fnt_16 mt_10">陈羽年</h1>
+                    <h1 class="fnt_16 mt_10">高管姓名</h1>
                     <h2 class="fnt_14 mt_5">
-                      江西铜业股份有限公司
-                      <br />党委委员 副总经理
+                      开封市金盛热力有限公司 职务
+                      <br />兼任职务或荣誉
                     </h2>
                   </span>
                 </li>
                 <li>
                   <div class="gg_ps">
-                    <img src="../../assets/5485b7032a694b04a8ee763ffe2c241b.jpg" />
+                    <img src="" />
                   </div>
                   <span>
-                    <h1 class="fnt_16 mt_10">林金良</h1>
+                    <h1 class="fnt_16 mt_10">高管姓名</h1>
                     <h2 class="fnt_14 mt_5">
-                      江西铜业股份有限公司
-                      <br />法务总监
+                      开封市金盛热力有限公司 职务
+                      <br />兼任职务或荣誉
                     </h2>
                   </span>
                 </li>
@@ -272,10 +272,12 @@ ul {
 }
 .gg_l img {
   border: 1px solid #fff;
-  width: 100%;
+  width: 357px;
+  height: 534px;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
+  background-color: skyblue;
 }
 
 img {
@@ -357,7 +359,9 @@ ul {
 }
 .gg_th_list ul li img {
     border: 1px solid #fff;
-    width: 99.4%;
+    width: 205px;
+    height: 305px;
+    background-color: skyblue;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;

@@ -1,105 +1,41 @@
 <!--
  * @Author: your name
  * @Date: 2020-04-26 09:01:54
- * @LastEditTime: 2020-04-26 18:23:13
- * @LastEditors: your name
+ * @LastEditTime: 2020-04-27 14:32:20
+ * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \jsrl_guanwang\src\view\enterprise\index.vue
  -->
 <template>
-  <div id="enterprise">
-    <div class="s_banner">
-      <div class="item">
-        <img src="../../assets/5c2483df6e11431f8cde377b182a46cb.jpg" alt />
-      </div>
-      <div class="banner_area w1280" style="width: 1280px;">
-        <span class="s_b_text">
-          <h1 class="fnt_30">我们</h1>
-          <h4 class="fnt_14">ABOUT</h4>
-        </span>
-      </div>
-    </div>
+  <div id="home">
+  <el-row :gutter="10">
+  <el-col :xs="2" :sm="6" :md="4" :lg="3" :xl="4"><div class="grid-content bg-purple">
+  aaa
+  </div></el-col>
+  <el-col :xs="10" :sm="6" :md="8" :lg="9" :xl="8"><div class="grid-content bg-purple-light"></div></el-col>
+  <el-col :xs="10" :sm="6" :md="8" :lg="9" :xl="8"><div class="grid-content bg-purple"></div></el-col>
+  <el-col :xs="2" :sm="6" :md="4" :lg="3" :xl="4"><div class="grid-content bg-purple-light"></div></el-col>
+</el-row>
   </div>
 </template>
-
 <script>
 export default {};
 </script>
-
 <style>
-.s_banner {
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-  padding-bottom: 20.9%;
+.el-col {
+  border-radius: 4px;
 }
-
-img {
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  transition: all 0.5s;
-  border: 0;
-  display: inline-block;
+.bg-purple-dark {
+  background: #99a9bf;
 }
-.banner_area {
-  position: absolute;
-  max-width: 1280px;
-  left: 50%;
-  bottom: 10%;
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
+.bg-purple {
+  background: #d3dce6;
 }
-.w1280 {
-  margin: 0 auto;
-  width: 1280px;
+.bg-purple-light {
+  background: #e5e9f2;
 }
-.s_b_text {
-  line-height: 33px;
-  text-align: center;
-  float: left;
-  padding-left: 13px;
-  margin-top: 22%;
-}
-.s_b_text h1,
-.s_b_text h4 {
-  color: #fff;
-}
-.fnt_30 {
-  font-size: 30px;
-}
-.fnt_14 {
-  font-size: 14px;
-}
-meta {
-  display: none;
-}
-.wrap_con_nobac {
-  margin: 0 auto;
-  width: 100%;
-  background: none;
-}
-
-.pb_200 {
-  padding-bottom: 200px;
-}
-.pb_fre {
-  padding-bottom: 0px !important;
-}
-.sub_main_con {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 38px 0 0;
-}
-.sub_menu {
-  float: left;
-}
-.sub_menu a {
-  float: left;
-  color: #999999;
-  margin-right: 10px;
+.grid-content {
+  border-radius: 4px;
+  min-height: 36px;
 }
 </style>

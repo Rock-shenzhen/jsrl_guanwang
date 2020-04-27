@@ -162,7 +162,7 @@ export default {
           line-height: 50px;
           text-align: center;
           &:hover > a {
-            color: #dcc07f;
+            color: skyblue;
           }
           .sanjiaoxing {
             position: absolute;
@@ -171,7 +171,7 @@ export default {
             width: 6px;
             height: 6px;
             margin-left: -3px;
-            background: #dcc07f;
+            background:skyblue;
             transform: rotate(45deg);
           }
           a {

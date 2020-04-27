@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-04-24 10:28:58
- * @LastEditTime: 2020-04-26 16:51:11
+ * @LastEditTime: 2020-04-27 14:27:04
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \jsrl_guanwang\jsrl_gw\src\router\index.js
@@ -44,7 +44,7 @@ import home from '../view/home/index'
 const router = new VueRouter({
     routes: [{
             path: '/',
-            redirect: '/layout',
+            redirect: '/home',
         },
         {
             path: '/layout',

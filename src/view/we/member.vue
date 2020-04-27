@@ -20,32 +20,32 @@
             <span></span>
             <a href="http://www.jxcc.com:80/channel/4a864176f35f450689df46cbe6916cfb.html">我们</a>
             <span></span>
-            <a href="http://www.jxcc.com:80/channel/fbc9bc1708e44538a53dcb44d7b06ebb.html">今盛人</a>
+            <a href="http://www.jxcc.com:80/channel/fbc9bc1708e44538a53dcb44d7b06ebb.html">金盛人</a>
           </div>
         </div>
         <div class="sub_content cf mt_55">
-          <h1 class="gs_title fnt_32">今盛人</h1>
+          <h1 class="gs_title fnt_32">金盛人</h1>
           <div class="peo_01 mt_70">
             <ul class="mt_45">
               <li class="li01">
-                <h1 class="fnt_24">同心</h1>
+                <h1 class="fnt_24">企业理念</h1>
                 <p class="fnt_12 mt_27">
-                  是江铜人团结向上主流精神的体现。
-                  <br />同心，是上下同欲、和谐包容，是我们对江铜事业的共识。
+                  XXXXXXXXXXXXX。
+                  <br />XXXXXXXXXXXXX。
                 </p>
               </li>
               <li class="li01">
-                <h1 class="fnt_24">同创</h1>
+                <h1 class="fnt_24">企业XX</h1>
                 <p class="fnt_12 mt_27">
-                  是同心的延展。江铜人应以创造价值、创造业绩为导向，实现超越和突破；
-                  <br />进一步创新文化、创新机制、创新管理、创新技术，提升企业竞争力。
+                  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX；
+                  <br />XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX；。
                 </p>
               </li>
               <li class="li01">
-                <h1 class="fnt_24">同进</h1>
+                <h1 class="fnt_24">企业XX</h1>
                 <p class="fnt_12 mt_27">
-                  是“同心同创”的必然要求。“同进”既强调不同业务领域的同频共振、
-                  <br />同步发展；又倡导员工与企业、企业与社会的共同进步。
+                  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX；、
+                  <br />XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX；。
                 </p>
               </li>
             </ul>
@@ -54,38 +54,38 @@
             <ul class="mt_45">
               <li>
                 <span class="peo2_pic">
-                  <img src="../../assets/2827d390dd2040b18b8178d4ce6fda0e.jpg" />
+                  <img src />
                 </span>
                 <span class="peo2_conx fnt_12 mt_10">
-                  <h1 class="fnt_18">高思原</h1>
-                  <h2 class="fnt_14">贵溪冶炼厂电解车间</h2>
+                  <h1 class="fnt_18">姓名</h1>
+                  <h2 class="fnt_14">部门及职位</h2>
                 </span>
               </li>
               <li>
                 <span class="peo2_pic">
-                  <img src="../../assets/2827d390dd2040b18b8178d4ce6fda0e.jpg" />
+                  <img src />
                 </span>
                 <span class="peo2_conx fnt_12 mt_10">
-                  <h1 class="fnt_18">江小东（彝族）</h1>
-                  <h2 class="fnt_14">四川江铜稀土有限责任公司</h2>
+                  <h1 class="fnt_18">姓名</h1>
+                  <h2 class="fnt_14">部门及职位</h2>
                 </span>
               </li>
               <li>
                 <span class="peo2_pic">
-                  <img src="../../assets/2827d390dd2040b18b8178d4ce6fda0e.jpg" />
+                  <img src />
                 </span>
                 <span class="peo2_conx fnt_12 mt_10">
-                  <h1 class="fnt_18">魏明</h1>
-                  <h2 class="fnt_14">城门山铜矿采矿场</h2>
+                  <h1 class="fnt_18">姓名</h1>
+                  <h2 class="fnt_14">部门及职位</h2>
                 </span>
               </li>
               <li>
                 <span class="peo2_pic">
-                  <img src="../../assets/2827d390dd2040b18b8178d4ce6fda0e.jpg" />
+                  <img src />
                 </span>
                 <span class="peo2_conx fnt_12 mt_10">
-                  <h1 class="fnt_18">汪洋</h1>
-                  <h2 class="fnt_14">永平铜矿选矿厂</h2>
+                  <h1 class="fnt_18">姓名</h1>
+                  <h2 class="fnt_14">部门及职位</h2>
                 </span>
               </li>
             </ul>
@@ -94,26 +94,22 @@
             <ul class="mt_45">
               <li class="mb_20">
                 <span class="peo_le">
-                  <img src="../../assets/2827d390dd2040b18b8178d4ce6fda0e.jpg" />
+                  <img src />
                 </span>
                 <span class="peo_ri fnt_12 mt_85">
-                  <h1 class="fnt_24">谢建辉</h1>
-                  <h2 class="fnt_14">全国五一劳动奖章、第十三届全国人大代表</h2>
-                  <p
-                    class="fnt_14 mt_30"
-                  >与电气设备结缘28年，我坚信“博观而约取，厚积而薄发”。期间，我陆续获得了众多荣誉，更光荣当选第十三届全国人大代表。我感觉，江铜是一片成长的热土，身为其中的一员，我们应该践行使命,履职担当,与企业共成长。</p>
+                  <h1 class="fnt_24">姓名</h1>
+                  <h2 class="fnt_14">部门及荣誉</h2>
+                  <p class="fnt_14 mt_30">座右铭或其他</p>
                 </span>
               </li>
               <li class="mb_20">
                 <span class="peo_le">
-                  <img src="../../assets/2827d390dd2040b18b8178d4ce6fda0e.jpg" />
+                  <img src />
                 </span>
                 <span class="peo_ri fnt_12 mt_85">
-                  <h1 class="fnt_24">雷寅</h1>
-                  <h2 class="fnt_14">江西省劳动模范</h2>
-                  <p
-                    class="fnt_14 mt_30"
-                  >工作三十几年，从一名普通员工到省劳模，我伴随着江铜的发展壮大而成长、成熟；这一路走来，从我所学专业，干我所学专长，能为公司尽自己的一份力量，我感到非常的自豪。江铜的“工匠精神”必将在我们身上延续！</p>
+                  <h1 class="fnt_24">姓名</h1>
+                  <h2 class="fnt_14">部门及荣誉</h2>
+                  <p class="fnt_14 mt_30">座右铭或其他</p>
                 </span>
               </li>
             </ul>
@@ -128,11 +124,11 @@ export default {};
 </script>
 <style lang="">
 .s_banner {
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding-bottom: 20.9%;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 20.9%;
 }
 
 img {
@@ -311,10 +307,12 @@ h6 {
 }
 
 .peo_02 li img {
-  width: 100%;
+  width: 305px;
+  height: 205px;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
+  background-color: skyblue;
 }
 
 .peo_02 li span {
@@ -324,7 +322,6 @@ h6 {
   min-height: 62px;
   box-sizing: border-box;
 }
-
 
 .peo_02 li h1 {
   font-weight: bold;
@@ -362,7 +359,9 @@ h6 {
   padding-bottom: 37%;
 }
 .peo_03 li img {
-  width: 100%;
+  width: 630px;
+  height: 475px;
+  background-color: skyblue;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;

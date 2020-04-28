@@ -36,6 +36,8 @@ figure {
     padding: 0;
 }
 
+
+/* 
 body,
 div,
 ul,
@@ -68,7 +70,7 @@ aside,
 address,
 figcaption {
     *zoom: 1;
-}
+} */
 
 li {
     list-style: none;
@@ -103,6 +105,12 @@ h5,
 h6 {
     font-size: 100%;
     font-weight: normal;
+}
+
+button {
+    /* background: 0 0; */
+    border: none;
+    /* color: #fff; */
 }
 
 #today-sr-swiper .swiper-slide-active .td-img,

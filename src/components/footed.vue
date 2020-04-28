@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-04-24 10:36:33
- * @LastEditTime: 2020-04-26 18:09:16
+ * @LastEditTime: 2020-04-28 19:34:09
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \jsrl_guanwang\src\components\footed.vue
@@ -20,15 +20,21 @@
       <div class="right">
         <div class="ico">
           <div>
-            <a class="chengguanju" href="http://cgzfj.kaifeng.gov.cn"></a>
-            <a class="kaifengwang" href=" http://www.kf.cn"></a>
-            <a class="douyin" href="https://weibo.com/u/6424935273?is_all=1"></a>
-            <a class="weixin" href="https://weibo.com/u/6424935273?is_all=1">
-              <div class="ewm_img" style="display: none;">
-                <img src="http://www.jxcc.com:80/static/img/jt_weixin.jpg" />
-              </div>
+            <a class="chengguanju" href="http://cgzfj.kaifeng.gov.cn">
+              <img src="../assets/cgw.png" alt />
             </a>
-            <a class="weibo" href="https://weibo.com/u/6424935273?is_all=1"></a>
+            <a class="kaifengwang" href=" http://www.kf.cn">
+              <img src="../assets/cgw.png" alt />
+            </a>
+            <a class="douyin" href="https://weibo.com/u/6424935273?is_all=1">
+              <img src="../assets/cgw.png" alt />
+            </a>
+            <a class="weixin" href="https://weibo.com/u/6424935273?is_all=1">
+              <img src="../assets/cgw.png" alt />
+            </a>
+            <a class="weibo" href="https://weibo.com/u/6424935273?is_all=1">
+              <img src="../assets/cgw.png" alt />
+            </a>
           </div>
         </div>
         <p>友情链接</p>
@@ -43,24 +49,27 @@ export default {};
 
 <style lang="less" scoped>
 #footed {
+  width: 100%;
   margin-top: -270px;
   color: #fff;
-  background: url("../assets/footed.jpg") no-repeat;
+  background-image: url("../assets/footer.png");
+  background-size: 100% 100%;
   .warp {
     margin: 0 auto;
     box-sizing: border-box;
     padding-top: 80px;
-    width: 1280px;
+    width: 1200px;
     height: 270px;
     .left {
       float: left;
+      margin-top: 50px;
       p {
         padding: 10px 0;
-        color: #909599;
+        color: #08c;
         a {
           font-size: 16px;
           line-height: 16px;
-          color: #fff;
+          color: black;
           display: inline-block;
           padding: 0 10px;
           border-left: 1px solid #fff;
@@ -75,6 +84,7 @@ export default {};
       float: right;
       display: flex;
       flex-direction: column;
+      margin-top: 50px;
       .ico {
         // width: 100px;
         height: 40px;
@@ -83,19 +93,23 @@ export default {};
             float: right;
             width: 40px;
             height: 40px;
-            margin-left: 10px;
-            border-radius: 5px;
-          }
-          .weibo {
-            background: url("../assets/f_wb.png") no-repeat;
+            margin-right: 30px;
+            border-radius: 10px;
+            // text-align: center;
+            // margin: 0 auto;
+            background-color: #d4f4f0;
+            img {
+              width: 40px;
+              height: 40px;
+              background-color: #d4f4f0;
+            }
           }
           .weixin {
-            background: url("../assets/f_wx.png") no-repeat;
             &:hover {
               .ewm_img {
                 display: none;
                 cursor: pointer;
-                background: #fff;
+                background: #08c;
                 padding: 10px;
                 position: absolute;
                 bottom: 36px;
@@ -111,20 +125,11 @@ export default {};
               }
             }
           }
-          .douyin {
-            background: url("../assets/f_wb.png") no-repeat;
-          }
-          .chengguanju {
-            background: url("../assets/f_wb.png") no-repeat;
-          }
-          .kaifengwang {
-            background: url("../assets/f_wb.png") no-repeat;
-          }
         }
       }
       p {
         margin-top: 20px;
-        color: #909599;
+        color: black;
       }
     }
   }

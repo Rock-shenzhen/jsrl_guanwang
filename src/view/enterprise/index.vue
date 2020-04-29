@@ -1,9 +1,14 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-04-26 09:01:54
+ * @LastEditTime: 2020-04-29 11:06:54
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \jsrl_guanwang\src\view\enterprise\index.vue
+ -->
 <template>
   <div id="enterprise">
     <div class="s_banner">
-      <div class="item">
-        <img src="../../assets/5c2483df6e11431f8cde377b182a46cb.jpg" alt />
-      </div>
       <div class="banner_area w1280" style="width: 1280px;">
         <span class="s_b_text">
           <h1 class="fnt_30">我们</h1>
@@ -19,21 +24,6 @@ export default {};
 </script>
 
 <style>
-.s_banner {
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-  padding-bottom: 20.9%;
-}
-
-img {
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  transition: all 0.5s;
-  border: 0;
-  display: inline-block;
-}
 .banner_area {
   position: absolute;
   max-width: 1280px;

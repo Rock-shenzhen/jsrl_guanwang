@@ -1,9 +1,6 @@
 <template>
   <div>
-    <div class="s_banner">
-      <div class="item">
-        <img src="../../assets/5c2483df6e11431f8cde377b182a46cb.jpg" alt />
-      </div>
+    <div class="s_banner">     
       <div class="banner_area w1280" style="width: 1280px;">
         <span class="s_b_text">
           <h1 class="fnt_30">我们</h1>
@@ -152,14 +149,6 @@
 export default {};
 </script>
 <style>
-.s_banner {
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-  height: 0;
-  padding-bottom: 20.9%;
-}
-
 img {
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;

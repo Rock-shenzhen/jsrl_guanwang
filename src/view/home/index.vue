@@ -96,10 +96,10 @@
             <p class="t0">头条资讯</p>
             <div class="swiper-wrapper">
               <div data-index="0" class="swiper-slide swiper-slide-visible swiper-slide-active">
-                <img src="../../assets/92DAA28AFCC84B21B6A0669A04C578AC.jpg" class="td-img" />
+                <img src="../../assets/jsgr.jpg" class="td-img" />
                 <div class="text-box">
                   <p class="t1">头条资讯</p>
-                  <p onclick="clickZhiXun()" class="t2">深圳市燃气集团股份有限公司党委关于巡察整改情况的通报</p>
+                  <p onclick="clickZhiXun()" class="t2">开封市金盛热力有限公司关于集中供热相关通知</p>
                   <p class="t3">2020-04-27</p>
                   <p class="t4">
                     <span class="ellipsis">...</span>
@@ -110,7 +110,7 @@
             <div class="pagination">
               <span class="swiper-pagination-switch swiper-visible-switch swiper-active-switch"></span>
             </div>
-            <a onclick="clickZhiXun()" class="view-more hvr-wobble-bottom">阅读全文</a>
+            <a  class="view-more hvr-wobble-bottom">阅读全文</a>
           </div>
         </div>
       </div>
@@ -640,9 +640,11 @@ export default {};
 #main {
   min-width: 320px;
   width: 100%;
+  
   // height: 937px;
   // 轮播图大盒子
   #main-swiper {
+  // top: -50px;
     position: relative;
     min-height: 400px;
     .swiper-wrapper {

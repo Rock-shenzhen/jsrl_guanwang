@@ -85,7 +85,15 @@ a:visited,
 a:active,
 a {
     text-decoration: none;
-    color: #333;
+}
+
+.s_banner {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding-bottom: 20.9%;
+    background-image: url("../assets/ycbj.jpg");
+    background-size: 100% 100%;
 }
 
 a:hover {

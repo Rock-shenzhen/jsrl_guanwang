@@ -36,8 +36,43 @@ export default {
       navBar: [
         { name: "网站首页", to: "/home" },
         {
+          name: "企业风采",
+          to: "/#",
+          children: [
+            { name: "企业活动", to: "/enterprise" },
+            { name: "员工生活", to: "/life" }
+          ]
+        },
+        {
+          name: "新闻公告",
+          to: "/#",
+          children: [
+            { name: "企业新闻", to: "/news" },
+            { name: "行业新闻", to: "/hyxw" },
+            { name: "企业公告", to: "/gsgg" },
+            { name: "政策法规", to: "/zcfg" }
+          ]
+        },
+        {
+          name: "社会责任",
+          to: "/#",
+          children: [
+            { name: "社会公益", to: "/shzr" },
+            { name: "科技创新", to: "/kjcx" }
+          ]
+        },
+        {
+          name: "业务平台",
+          to: "/#",
+          children: [
+            { name: "用热报装", to: "/yrbzpt" },
+            { name: "网上营业厅", to: "/yewu" },
+            { name: "网上商城", to: "/wssc" }
+          ]
+        },
+        {
           name: "关于我们",
-          to: "/we",
+          to: "/#",
           children: [
             { name: "公司简介", to: "/we" },
             { name: "企业文化", to: "/culture" },
@@ -47,41 +82,6 @@ export default {
             { name: "金盛人", to: "/member" },
             { name: "团队建设", to: "/tdjs" },
             { name: "招聘信息", to: "/job" }
-          ]
-        },
-        {
-          name: "业务平台",
-          to: "/yewu",
-          children: [
-            { name: "用热报装", to: "/yrbzpt" },
-            { name: "网上营业厅", to: "/yewu" },
-            { name: "网上商城", to: "/wssc" }
-          ]
-        },
-        {
-          name: "企业风采",
-          to: "/enterprise",
-          children: [
-            { name: "企业活动", to: "/enterprise" },
-            { name: "员工生活", to: "/life" }
-          ]
-        },
-        {
-          name: "新闻公告",
-          to: "/news",
-          children: [
-            { name: "公司新闻", to: "/news" },
-            { name: "行业新闻", to: "/hyxw" },
-            { name: "公司公告", to: "/gsgg" },
-            { name: "政策法规", to: "/zcfg" }
-          ]
-        },
-        {
-          name: "社会责任",
-          to: "/shzr",
-          children: [
-            { name: "社会公益", to: "/shzr" },
-            { name: "科技创新", to: "/kjcx" }
           ]
         },
         {
@@ -130,6 +130,8 @@ export default {
 
 <style lang="less" scoped>
 #topBar {
+  position: relative;
+  z-index: 999;
   // background-color: #2e3092;
   .warp {
     margin: 0 auto;
@@ -139,16 +141,20 @@ export default {
     .logo {
       position: absolute;
       left: 0;
-      background-color: #2e3092;
+      bottom: 0px;
+
+      // background-color: #2e3092;
       img {
         width: 100%;
-        bottom: 0px;
+        margin-top: 30px;
+        // bottom: 0;
       }
     }
     .nav {
       position: absolute;
       left: 650px;
       top: 10;
+      margin-top: -10px;
       width: 760px;
       // background-color: #0ff;
       > ul {
@@ -171,13 +177,14 @@ export default {
             width: 6px;
             height: 6px;
             margin-left: -3px;
-            background:skyblue;
+            background: skyblue;
             transform: rotate(45deg);
           }
           a {
             display: block;
             width: 100%;
             height: 100%;
+            color: #fff;
           }
           .select {
             position: absolute;
@@ -186,8 +193,8 @@ export default {
             left: 0px;
             z-index: 9999;
             padding: 10px 0;
-            color: #fff;
-            background-color: #dcc07f;
+            color: black;
+            background-color: #fff;
             li {
               width: 100%;
               height: 40px;
@@ -196,11 +203,11 @@ export default {
               &:hover {
                 background-color: #fff;
                 a {
-                  color: #dcc07f;
+                  color: #436eee;
                 }
               }
               a {
-                color: #fff;
+                color: black;
               }
             }
           }

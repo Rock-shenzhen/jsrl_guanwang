@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-04-24 10:36:33
- * @LastEditTime: 2020-04-28 19:34:09
+ * @LastEditTime: 2020-04-29 09:17:03
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \jsrl_guanwang\src\components\footed.vue
@@ -21,19 +21,19 @@
         <div class="ico">
           <div>
             <a class="chengguanju" href="http://cgzfj.kaifeng.gov.cn">
-              <img src="../assets/cgw.png" alt />
+              <img src="../assets/kfw111.png" alt />
             </a>
             <a class="kaifengwang" href=" http://www.kf.cn">
-              <img src="../assets/cgw.png" alt />
+              <img src="../assets/cgw111.png" alt />
             </a>
             <a class="douyin" href="https://weibo.com/u/6424935273?is_all=1">
-              <img src="../assets/cgw.png" alt />
+              <img src="../assets/dy.png" alt />
             </a>
             <a class="weixin" href="https://weibo.com/u/6424935273?is_all=1">
-              <img src="../assets/cgw.png" alt />
+              <img src="../assets/wx.png" alt />
             </a>
             <a class="weibo" href="https://weibo.com/u/6424935273?is_all=1">
-              <img src="../assets/cgw.png" alt />
+              <img src="../assets/wb.png" alt />
             </a>
           </div>
         </div>
@@ -95,13 +95,14 @@ export default {};
             height: 40px;
             margin-right: 30px;
             border-radius: 10px;
-            // text-align: center;
-            // margin: 0 auto;
-            background-color: #d4f4f0;
+
+            // background-color: #d4f4f0;
             img {
-              width: 40px;
-              height: 40px;
-              background-color: #d4f4f0;
+              max-width: 100%;
+              max-height: 100%;
+              width: auto;
+              height: auto;
+              // background-color: #d4f4f0;
             }
           }
           .weixin {
@@ -124,6 +125,14 @@ export default {};
                 }
               }
             }
+          }
+          .kaifengwang {
+            width: 50px;
+            height: 50px;
+          }
+          .chengguanwang {
+            width: 50px;
+            height: 50px;
           }
         }
       }

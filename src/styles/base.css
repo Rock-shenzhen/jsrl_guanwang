@@ -36,6 +36,17 @@ figure {
     padding: 0;
 }
 
+.juzhong {
+    text-align: center;
+    font-size: 30px;
+}
+
+.jz3 {
+    text-align: center;
+    font-size: 20px;
+    color: skyblue;
+}
+
 
 /* 
 body,
@@ -87,15 +98,6 @@ a {
     text-decoration: none;
 }
 
-.s_banner {
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    padding-bottom: 20.9%;
-    background-image: url("../assets/ycbj.jpg");
-    background-size: 100% 100%;
-}
-
 a:hover {
     display: block;
 }
@@ -105,7 +107,8 @@ img {
     vertical-align: middle;
 }
 
-h1,
+
+/* h1,
 h2,
 h3,
 h4,
@@ -113,7 +116,7 @@ h5,
 h6 {
     font-size: 100%;
     font-weight: normal;
-}
+} */
 
 button {
     /* background: 0 0; */

@@ -1,8 +1,8 @@
 /*
  * @Author: your name
  * @Date: 2020-04-24 10:28:58
- * @LastEditTime: 2020-04-24 10:43:52
- * @LastEditors: your name
+ * @LastEditTime: 2020-04-30 14:09:57
+ * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \jsrl_guanwang\jsrl_gw\src\main.js
  */
@@ -14,6 +14,8 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import router from './router'
 import './styles/base.css';
+// import VueLazyload from 'vue-lazyload'
+// Vue.use(VueLazyload)
 Vue.use(ElementUI);
 
 Vue.config.productionTip = false

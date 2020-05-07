@@ -1,34 +1,39 @@
 <!--
  * @Author: your name
  * @Date: 2020-04-26 09:01:54
- * @LastEditTime: 2020-04-26 18:44:06
+ * @LastEditTime: 2020-04-30 10:47:51
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \jsrl_guanwang\src\view\enterprise\index.vue
  -->
 <template>
   <div id="enterprise">
-    <div class="s_banner">     
+    <div class="s_banner">  
+     <div class="item">
+        <img src="../../assets/0417f07f17ca4deb93d3ef262540e341.jpg" alt />
+      </div>   
       <div class="banner_area w1280" style="width: 1280px;">
-        <span class="s_b_text">
-          <h1 class="fnt_30">我们</h1>
-          <h4 class="fnt_14">ABOUT</h4>
+        <!--  <span class="s_b_text">
+          <h1 class="fnt_30"></h1>
+          <h4 class="fnt_14">enterprise</h4>
         </span>
+        -->
       </div>
     </div>
+    <h2 class="juzhong">人才招聘板块</h2>
+    <h3 class="jz3">导航栏中每个大模块，都设统一一个背景图，风格可按需求设置</h3>
     <div class="wrap_con">
       <div class="sub_main_con cf pb_fre">
         <div class="sub_menu fnt_14">
-          <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
           <div class="sub_menu fnt_14">
-            <a href="http://www.jxcc.com:80/">首页</a>
+           <router-link to="/home">首页</router-link>
             <span></span>
-            <a href="http://www.jxcc.com:80/channel/4a864176f35f450689df46cbe6916cfb.html">我们</a>
+            <router-link to="/we">我们</router-link>
             <span></span>
-            <a href="http://www.jxcc.com:80/channel/ed6933da35a94fe596f13c603fc6c88e.html">人才招聘</a>
+            <router-link to="/job">人才招聘</router-link>
           </div>
         </div>
-        <div class="sub_content cf mt_55">
+        <!--<div class="sub_content cf mt_55">
           <h1 class="gs_title fnt_32">人才招聘</h1>
           <div class="de_cc_pic join_left mb_60 mt_70">
             <img src="../../assets/a14f09cff38541bd8b58a2004c37dbdf.png" />
@@ -145,7 +150,7 @@
               <div class="page_area cf fnt_16"></div>
             </div>
           </div>
-        </div>
+        </div>-->
       </div>
     </div>
   </div>

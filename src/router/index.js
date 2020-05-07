@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-04-24 10:28:58
- * @LastEditTime: 2020-04-27 14:27:04
+ * @LastEditTime: 2020-04-30 14:12:24
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \jsrl_guanwang\jsrl_gw\src\router\index.js
@@ -197,7 +197,12 @@ const router = new VueRouter({
                 }
             ]
         }
-    ]
+    ],
+    mode: 'history',
+    scrollBehavior: () => ({
+        y: 0
+    }),
+    base: '/dist/', // 加上这一行
 })
 
 export default router

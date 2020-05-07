@@ -1,23 +1,28 @@
 <template>
   <div>
-    <div class="s_banner">     
+    <div class="s_banner">  
+     <div class="item">
+        <img src="../../assets/0417f07f17ca4deb93d3ef262540e341.jpg" alt />
+      </div>   
       <div class="banner_area w1280" style="width: 1280px;">
-        <span class="s_b_text">
-          <h1 class="fnt_30">我们</h1>
-          <h4 class="fnt_14">ABOUT</h4>
+        <!--  <span class="s_b_text">
+          <h1 class="fnt_30"></h1>
+          <h4 class="fnt_14">enterprise</h4>
         </span>
+        -->
       </div>
     </div>
+    <h3 class="jz3">导航栏中每个大模块，都设统一一个背景图，风格可按需求设置</h3>
     <div class="wrap_con wrap_con_gg">
       <div class="sub_main_con cf">
         <div class="sub_menu fnt_14">
           <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
           <div class="sub_menu fnt_14">
-            <a href="http://www.jxcc.com:80/">首页</a>
+            <router-link to="/home">首页</router-link>
             <span></span>
-            <a href="http://www.jxcc.com:80/channel/4a864176f35f450689df46cbe6916cfb.html">我们</a>
+            <router-link to="/we">我们</router-link>
             <span></span>
-            <a href="http://www.jxcc.com:80/channel/56545073c89342b1b58688b97b9a40a1.html">高管团队</a>
+            <router-link to="/leadership">高管团队</router-link>
           </div>
         </div>
         <div class="sub_content cf mt_55">
@@ -27,7 +32,7 @@
               <ul>
                 <li>
                   <div class="gg_l mb_40">
-                    <img src="" alt />
+                    <img src alt />
                   </div>
                   <div class="gg_r mb_40" style="height: 420.345px;">
                     <h1 class="fnt_24">高管姓名</h1>
@@ -39,7 +44,7 @@
                 </li>
                 <li>
                   <div class="gg_l mb_40">
-                    <img src="" alt />
+                    <img src alt />
                   </div>
                   <div class="gg_r mb_40" style="height: 420.345px;">
                     <h1 class="fnt_24">高管姓名</h1>
@@ -55,7 +60,7 @@
               <ul>
                 <li>
                   <div class="gg_ps">
-                    <img src="" />
+                    <img src />
                   </div>
                   <span>
                     <h1 class="fnt_16 mt_10">高管姓名</h1>
@@ -67,7 +72,7 @@
                 </li>
                 <li>
                   <div class="gg_ps">
-                    <img src="" />
+                    <img src />
                   </div>
                   <span>
                     <h1 class="fnt_16 mt_10">高管姓名</h1>
@@ -79,7 +84,7 @@
                 </li>
                 <li>
                   <div class="gg_ps">
-                    <img src="" />
+                    <img src />
                   </div>
                   <span>
                     <h1 class="fnt_16 mt_10">高管姓名</h1>
@@ -91,7 +96,7 @@
                 </li>
                 <li>
                   <div class="gg_ps">
-                    <img src="" />
+                    <img src />
                   </div>
                   <span>
                     <h1 class="fnt_16 mt_10">高管姓名</h1>
@@ -103,7 +108,7 @@
                 </li>
                 <li>
                   <div class="gg_ps">
-                    <img src="" />
+                    <img src />
                   </div>
                   <span>
                     <h1 class="fnt_16 mt_10">高管姓名</h1>
@@ -115,7 +120,7 @@
                 </li>
                 <li>
                   <div class="gg_ps">
-                    <img src="" />
+                    <img src />
                   </div>
                   <span>
                     <h1 class="fnt_16 mt_10">高管姓名</h1>
@@ -127,7 +132,7 @@
                 </li>
                 <li>
                   <div class="gg_ps">
-                    <img src="" />
+                    <img src />
                   </div>
                   <span>
                     <h1 class="fnt_16 mt_10">高管姓名</h1>
@@ -156,6 +161,11 @@ img {
   transition: all 0.5s;
   border: 0;
   display: inline-block;
+}
+.gs_title{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
 }
 .banner_area {
   position: absolute;
@@ -237,8 +247,6 @@ img {
 ul {
   display: block;
   list-style-type: disc;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 40px;
@@ -319,40 +327,31 @@ img {
   font-size: 14px;
 }
 .gg_th_list {
-    float: left;
-    width: 100%;
-}
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+  float: left;
+  width: 100%;
 }
 .gg_th_list ul li {
-    float: left;
-    width: 15.91%;
-    margin-right: 0.7%;
-    overflow: hidden;
-    margin-bottom: 20px;
+  float: left;
+  width: 15.91%;
+  margin-right: 0.7%;
+  overflow: hidden;
+  margin-bottom: 20px;
 }
 .gg_ps {
-    float: left;
-    position: relative;
-    width: 100%;
-    height: 0;
-    overflow: hidden;
-    padding-bottom: 125.4%;
+  float: left;
+  position: relative;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 125.4%;
 }
 .gg_th_list ul li img {
-    border: 1px solid #fff;
-    width: 205px;
-    height: 305px;
-    background-color: skyblue;
-    -webkit-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
+  border: 1px solid #fff;
+  width: 205px;
+  height: 305px;
+  background-color: skyblue;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
 </style>

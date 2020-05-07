@@ -1,23 +1,28 @@
 <template>
   <div>
-    <div class="s_banner">      
+    <div class="s_banner">
+      <div class="item">
+        <img src="../../assets/0417f07f17ca4deb93d3ef262540e341.jpg" alt />
+      </div>
       <div class="banner_area w1280" style="width: 1280px;">
-        <span class="s_b_text">
-          <h1 class="fnt_30">我们</h1>
-          <h4 class="fnt_14">ABOUT</h4>
+        <!--  <span class="s_b_text">
+          <h1 class="fnt_30"></h1>
+          <h4 class="fnt_14">enterprise</h4>
         </span>
+        -->
       </div>
     </div>
+    <h3 class="jz3">导航栏中每个大模块，都设统一一个背景图，风格可按需求设置</h3>
     <div class="wrap_con">
       <div class="sub_main_con cf pb_fre">
         <div class="sub_menu fnt_14">
           <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
           <div class="sub_menu fnt_14">
-            <a href="http://www.jxcc.com:80/">首页</a>
+            <router-link to="/home">首页</router-link>
             <span></span>
-            <a href="http://www.jxcc.com:80/channel/4a864176f35f450689df46cbe6916cfb.html">我们</a>
+            <router-link to="/we">我们</router-link>
             <span></span>
-            <a href="http://www.jxcc.com:80/channel/fbc9bc1708e44538a53dcb44d7b06ebb.html">金盛人</a>
+            <router-link to="/member">金盛人</router-link>
           </div>
         </div>
         <div class="sub_content cf mt_55">
@@ -225,7 +230,7 @@ img {
 }
 
 .mt_70 {
-  margin-top: 70px;
+  margin-top: 20px;
 }
 .peo_01 .mt_45 {
   margin-top: 0;

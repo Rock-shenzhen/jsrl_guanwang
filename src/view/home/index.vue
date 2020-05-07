@@ -7,7 +7,7 @@
           <div class="swiper-wrapper">
             <!--style="width: 7014px; height: 613px; transform: translate3d(-4676px, 0px, 0px); transition-duration: 0.8s;"   -->
             <div class="swiper-slide">
-              <img id="first-img" src="../../assets/main1.jpg" class="loop-img" />
+              <img id="first-img" src="../../assets/main1.jpg" class="loop-img"  />
             </div>
             <!--<div class="swiper-slide swiper-slide-duplicate" style="width: 1169px; height: 613px;">
               <img src="../../assets/main2.jpg" class="loop-img" />
@@ -48,8 +48,8 @@
           </div>
           <!--<i onclick="mainSwiper.swipePrev()" class="iconfont iconxiangzuo"></i>
           <i onclick="mainSwiper.swipeNext()" class="iconfont iconxiangyou"></i>-->
-          <img src="../../assets/zuojiantou.png" class="zuo-img jiantou" alt="点击" />
-          <img src="../../assets/youjiantou.png" class="you-img jiantou" alt="点击" />
+          <img src="../../assets/zuojiantou.png" class="zuo-img jiantou" title="上一页" />
+          <img src="../../assets/youjiantou.png" class="you-img jiantou" title="下一页" />
         </div>
         <!--<div class="bt-box-outer">
           <div class="app-row bt-box-main">
@@ -110,7 +110,7 @@
             <div class="pagination">
               <span class="swiper-pagination-switch swiper-visible-switch swiper-active-switch"></span>
             </div>
-            <a  class="view-more hvr-wobble-bottom">阅读全文</a>
+            <a class="view-more hvr-wobble-bottom">阅读全文</a>
           </div>
         </div>
       </div>
@@ -118,7 +118,7 @@
       <div class="bg-box news-bg-box">
         <div data-aos="fade-up" class="news-box">
           <div class="item item1 am-scrollspy-init" style="opacity: 1;">
-            <img src="../../assets/news1.png" class="img1" />
+            <img src="../../assets/qyxw.jpg" class="img1" />
             <div
               class="text-box"
               style="opacity: 0.9; background-image: linear-gradient(44deg, rgba(191, 0, 0, 0.91) 0px, rgba(189, 64, 0, 0.78) 100%);"
@@ -126,7 +126,7 @@
               <span
                 onclick="location.assign(views/partyCommittee/dangWeiJianShe.html)"
                 class="title"
-              >深燃党建</span>
+              >企业新闻</span>
               <p>
                 <span>04-27 深圳市燃气集团股份有限公司党委关于巡察整改情况的通报</span>
                 <i class="iconfont iconxiangyou"></i>
@@ -142,12 +142,12 @@
             </div>
           </div>
           <div class="item item2 am-scrollspy-init" style="opacity: 1;">
-            <img src="../../assets/news2.png" class="img1" />
+            <img src="../../assets/hyxw.jpg" class="img1" />
             <div
               class="text-box"
               style="opacity: 1; background-image: linear-gradient(44deg, rgb(7, 102, 177) 0px, rgb(45, 166, 143) 100%);"
             >
-              <span onclick="location.assign(views/news/shenranZixun.html)" class="title">深燃资讯</span>
+              <span onclick="location.assign(views/news/shenranZixun.html)" class="title">行业新闻</span>
               <p>
                 <span>04-17 深圳燃气召开2020年第一季度经济工作会暨疫情防控及巡察整改阶段性工作总结会</span>
                 <i class="iconfont iconxiangyou"></i>
@@ -168,7 +168,7 @@
               class="text-box"
               style="opacity: 1; background-image: linear-gradient(44deg, rgb(115, 181, 22) 0px, rgba(45, 166, 114, 0.9) 100%);"
             >
-              <span onclick="location.assign(views/news/meitijujiao.html)" class="title">媒体聚焦</span>
+              <span onclick="location.assign(views/news/meitijujiao.html)" class="title">企业公告</span>
               <p>
                 <span>03-15 深圳燃气精准优化报装流程</span>
                 <i class="iconfont iconxiangyou"></i>
@@ -190,14 +190,14 @@
         <div class="app-row summary-box">
           <div style="float: right;">
             <div data-aos="fade-up-right" class="item item1 am-scrollspy-init" style="opacity: 1;">
-              <p class="t1">客户中心</p>
-              <p class="t2 hvr-float-shadow">营商环境</p>
+              <p class="t1">科技创新</p>
+              <p class="t2 hvr-float-shadow">可持续发展集中供热</p>
               <div class="img-box">
                 <div class="contain">
                   <img src="../../assets/summary2.png" class="img1" />
                 </div>
-                <p class="t3">深圳燃气：积极落实支持商业客户共度难关举措获好评</p>
-                <span class="t4">2020-03-20</span>
+                <p class="t3">供热行业技术创新的潜力非常大,确立企业在技术创新中的主体地位,是一个重要的环节。</p>
+                <span class="t4">2020-04-27</span>
               </div>
               <a href="views/businessEnvironment/yingshanghuanjin.html" class="t5 hvr-bounce-in">
                 了解更多
@@ -205,11 +205,11 @@
               </a>
             </div>
             <div data-aos="fade-up-left" class="item item2 am-scrollspy-init" style="opacity: 1;">
-              <p class="t1">天然气改造</p>
+              <p class="t1">社会公益</p>
               <p
                 onclick="location.assign(&quot;views/urbanVillages/index.html&quot;)"
                 class="t2 hvr-float-shadow"
-              >城中村改造</p>
+              >公益与我同行</p>
               <div class="img-box">
                 <div class="contain">
                   <img
@@ -218,8 +218,8 @@
                     class="img1"
                   />
                 </div>
-                <p class="t3">宣传先行，助力城中村改造复工复产</p>
-                <span class="t4">2020-03-31</span>
+                <p class="t3">企业的社会责任要求企业必须超越把利润作为唯一目标的传统理念</p>
+                <span class="t4">2020-04-27</span>
               </div>
               <a href="views/urbanVillages/index.html" class="t5 hvr-bounce-in">
                 了解更多
@@ -241,33 +241,28 @@
         </div>
         <div id="mapContent" class="app-row content">
           <img src="../../assets/map2.png" class="map am-scrollspy-init" style="opacity: 1;" />
-          <span data-aos="fade-down" class="t1 am-scrollspy-init" style="opacity: 1;">深燃版图</span>
-          <button
-            data-aos="fade-right"
-            onclick="location.assign(&quot;views/aboutSr/shenRanBanTu.html&quot;)"
-            class="t2 am-scrollspy-init"
-            style="opacity: 1;"
-          >查看更多</button>
+          <span data-aos="fade-down" class="t1 am-scrollspy-init" style="opacity: 1;">金盛版图</span>
+          <button data-aos="fade-right" class="t2 am-scrollspy-init" style="opacity: 1;">查看更多</button>
           <div data-aos="fade-up" class="num-box">
             <div class="item am-scrollspy-init" style="opacity: 1;">
-              <span class="t3 num1">1600</span>
+              <span class="t3 num1">XXXX</span>
               <span class="t4">
                 覆盖人口超过
-                <span class="t5 num1">1600</span>万
+                <span class="t5 num1">XXXX</span>万
               </span>
             </div>
             <div class="item am-scrollspy-init" style="opacity: 1;">
-              <span class="t3 num2">14000</span>
+              <span class="t3 num2">XXXX</span>
               <span class="t4">
-                运营燃气管道超过
-                <span class="t5 num2">14000</span>公里
+                运营供热管道超过
+                <span class="t5 num2">XXXX</span>公里
               </span>
             </div>
             <div class="item am-scrollspy-init" style="opacity: 1;">
-              <span class="t3 num3">40</span>
+              <span class="t3 num3">XXXX</span>
               <span class="t4">
                 全国
-                <span class="t5 num3">40</span>个特许经营权城市
+                <span class="t5 num3">XXXX</span>个特许经营权城市
               </span>
             </div>
           </div>
@@ -314,17 +309,18 @@
               >
                 <a class="title-img-box hvr-curl-bottom-right">
                   <img
-                    src="../../assets/880C4267300F48A180754B0DC946456A.jpg"
                     onclick="openDetail(view.periodical[0])"
+                    src="../../assets/xwtp.jpg"
                     class="title-img"
                   />
+                  <!-- -->
                 </a>
                 <div class="text-box">
-                  <span onclick="openDetail(view.periodical[0])" class="title">第75期：2020深燃再出发</span>
+                  <span onclick="openDetail(view.periodical[0])" class="title">你好，四月</span>
                   <p></p>
                   <p>
                     <span class="title2">
-                      新春贺词
+                      从心出发
                       <span>FORWARD</span>
                     </span>
                     <span>&nbsp;</span>
@@ -335,15 +331,15 @@
                     <span></span>
                   </p>
                   <p>
-                    <span>04</span> 全球LNG供应过剩将持续到年中（等）
+                    <span>04</span> 全省供暖供应将持续到年中（等）
                     <span></span>
                   </p>
                   <p>
-                    <span>06 深燃党委召开巡察整改工作部署会</span>（等）
+                    <span>06 金盛党委召开巡察整改工作部署会</span>（等）
                     <span></span>
                   </p>
                   <p>
-                    <span>08</span> 深圳燃气召开2019年度经济工作会等系列会议
+                    <span>08</span> 金盛热力召开2019年度经济工作会等系列会议
                     <span></span>
                   </p>
                   <p>
@@ -351,7 +347,7 @@
                     <span></span>
                   </p>
                   <p class="last-p">
-                    <span>18 2019城中村改造大数据</span>
+                    <span>18 2019城中村集中供热大改造</span>
                     <span></span>
                   </p>
                   <p>
@@ -363,7 +359,7 @@
                   </p>
                   <p>
                     <span class="title2">
-                      <span>20 习近平出席国企党建工作会议：使国企成为党和国家最可信赖的依靠力量</span>
+                      <span>20 绿色供暖，环保中国</span>
                     </span>
                     <span></span>
                   </p>
@@ -616,8 +612,13 @@
                 </div>
               </div>-->
             </div>
-            <i onclick="journalSwiper.swipePrev()" class="iconfont iconxiangzuo"></i>
-            <i onclick="journalSwiper.swipeNext()" class="iconfont iconxiangyou"></i>
+            <a class="iconfont iconxiangyou">
+              <img src="../../assets/yjt.png" title="上一页" />
+            </a>
+            <a class="iconfont iconxiangzuo">
+              <img src="../../assets/zjt.png" title="下一页" />
+            </a>
+
             <div class="pagination">
               <span class="swiper-pagination-switch swiper-visible-switch swiper-active-switch"></span>
               <span class="swiper-pagination-switch"></span>
@@ -633,6 +634,7 @@
 </template>
 
 <script>
+// import iconfont from "../../styles/iconfont.css";
 export default {};
 </script>
 
@@ -640,11 +642,11 @@ export default {};
 #main {
   min-width: 320px;
   width: 100%;
-  
+
   // height: 937px;
   // 轮播图大盒子
   #main-swiper {
-  // top: -50px;
+    // top: -50px;
     position: relative;
     min-height: 400px;
     .swiper-wrapper {
@@ -682,6 +684,10 @@ export default {};
         margin: 0 3px;
         cursor: pointer;
       }
+      .swiper-visible-switch{
+        background-color: #fff;
+      }
+      
     }
     .jiantou {
       width: 50px;
@@ -887,7 +893,7 @@ export default {};
         transition: all 0.45s;
         bottom: 20px;
         .swiper-active-switch {
-          background: #1a6dd3;
+          background: #fff;
         }
         .swiper-pagination-switch {
           display: inline-block;
@@ -1009,7 +1015,8 @@ export default {};
   // 两大模块
   .summary-box-out {
     overflow: hidden;
-    background-image: url("../../assets/yancong.jpg");
+    background-image: url("../../assets/by.jpg");
+    opacity: 0.8;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 90vh;
@@ -1026,6 +1033,9 @@ export default {};
         float: left;
         border-radius: 8px;
         width: 327px;
+        // position: absolute;
+        // opacity: 1;
+        // z-index: 22;
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
         background: #fff;
@@ -1082,8 +1092,8 @@ export default {};
             line-height: 26px;
             display: -webkit-box;
             text-overflow: ellipsis;
-            -webkit-box-orient: vertical;
-            -webkit-line-clamp: 2;
+            // -webkit-box-orient: vertical;
+            // -webkit-line-clamp: 2;
             overflow: hidden;
           }
           .t4 {
@@ -1093,7 +1103,7 @@ export default {};
         }
         .t5 {
           color: #1a6dd3;
-          -webkit-transition: 0.4s;
+          // -webkit-transition: 0.4s;
           transition: 0.4s;
           cursor: pointer;
           font-size: 18px;
@@ -1102,6 +1112,16 @@ export default {};
             height: 15px;
             width: 28px;
           }
+        }
+        .hvr-bounce-in {
+          display: inline-block;
+          vertical-align: middle;
+          // transform: perspective(1px) translateZ(0);
+          // box-shadow: 0 0 1px transparent;
+          // -webkit-transform: perspective(1px) translateZ(0);
+          // -webkit-box-shadow: 0 0 1px transparent;
+          // -webkit-transition-duration: 0.5s;
+          // transition-duration: 0.5s;
         }
       }
     }
@@ -1196,7 +1216,7 @@ export default {};
   // 业务地图结束
   // 期刊
   .journal-box {
-    background-image: url("../../assets/b2.jpg");
+    background-image: url("../../assets/kj.jpg");
     background-size: 100% 100%;
     background-position: 0 80px;
     background-repeat: no-repeat;
@@ -1238,11 +1258,13 @@ export default {};
               cursor: pointer;
               // opacity: 1;
               width: 100%;
-              height: auto;
+              height: 520px;
+              // height: auto;
               padding: 8px;
               // -webkit-box-sizing: border-box;
               box-sizing: border-box;
               background: rgba(212, 215, 224, 0.8);
+              // background-color: pink;
               right: 90px;
               // opacity: 0;
               // -webkit-transition: all 0.6s;
@@ -1301,6 +1323,29 @@ export default {};
           }
         }
       }
+    }
+    .iconfont {
+      // -webkit-transition: all .45s;
+      // transition: all .45s;
+      z-index: 100;
+      cursor: pointer;
+      // color: #005fbd;
+      display: inline-block;
+      text-align: center;
+      width: 45px;
+
+      line-height: 45px;
+      right: 0px;
+      bottom: 60px;
+      position: absolute;
+      background: #fff;
+      // -webkit-transition: .2s;
+      transition: 0.2s;
+    }
+    .iconxiangzuo {
+      right: 50px;
+      // color: #005fbd;
+      // background: #fff;
     }
 
     .pagination {

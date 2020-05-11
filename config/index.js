@@ -1,11 +1,12 @@
 /*
  * @Author: your name
  * @Date: 2020-04-24 10:28:58
- * @LastEditTime: 2020-05-09 11:59:32
+ * @LastEditTime: 2020-05-11 19:20:43
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \jsrl_guanwang\config\index.js
- */'use strict'
+ */
+'use strict'
 // Template version: 1.3.1
 // see http://vuejs-templates.github.io/webpack for documentation.
 
@@ -16,10 +17,10 @@ module.exports = {
 
         // Paths
         assetsSubDirectory: 'static',
-        assetsPublicPath: '/dist/',
+        assetsPublicPath: './',
         proxyTable: {},
 
-      // Various Dev Server settings
+        // Various Dev Server settings
         host: '127.0.0.1', // can be overwritten by process.env.HOST
         port: 9090, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
         autoOpenBrowser: false,
@@ -49,7 +50,7 @@ module.exports = {
         // Paths
         assetsRoot: path.resolve(__dirname, '../dist'),
         assetsSubDirectory: 'static',
-        assetsPublicPath: '/',
+        assetsPublicPath: './',
 
         /**
          * Source Maps

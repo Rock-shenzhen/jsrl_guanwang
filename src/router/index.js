@@ -1,8 +1,8 @@
 /*
  * @Author: your name
  * @Date: 2020-04-24 10:28:58
- * @LastEditTime: 2020-04-27 14:27:04
- * @LastEditTime: 2020-05-09 16:08:03 * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2020-05-11 20:04:20
+ * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \jsrl_guanwang\jsrl_gw\src\router\index.js
  */
@@ -103,38 +103,41 @@ const gsgg = () =>
     import ('@/view/news/gsgg')
 const zcfg = () =>
     import ('@/view/news/zcfg')
-    // import news from '../view/news/index'
-    // import hyxw from '../view/news/hyxw'
-    // import gsgg from '../view/news/gsgg'
-    // import zcfg from '../view/news/zcfg'
-    // 合作伙伴
+
+// 合作伙伴
 const hzhb = () =>
     import ('@/view/hzhb/')
-    // import hzhb from '../view/hzhb/index'
 
-// 企业风采
-// import enterprise from '../view/enterprise/index'
-// import life from '../view/enterprise/life'
-
-// 社会责任
-// import shzr from '../view/shzr/index'
-// import kjcx from '../view/shzr/kjcx'
-// 在线留言
-// import zxly from '../view/zxly/index'
-// import tsjy from '../view/zxly/tsjy'
 // home模块
-import home from '../view/home/index'
+const home = () =>
+    import ('@/view/home/index')
+
+// import home from '../view/home/index'
 
 const router = new VueRouter({
+    // mode: 'history',
+    scrollBehavior: () => ({
+        y: 0
+    }),
     routes: [{
             path: '/',
-            redirect: '/home',
+            redirect: '/layout',
         },
         {
             path: '/layout',
             name: 'layout',
             component: layout,
-            children: [
+            children: [{
+                    path: '/',
+                    redirect: '/home',
+                },
+
+                // home模块
+                {
+                    path: '/home',
+                    name: 'home',
+                    component: home
+                },
                 // we模块
                 {
                     path: '/we',
@@ -306,66 +309,10 @@ const router = new VueRouter({
                     name: '合作伙伴',
                     component: hzhb
                 },
-                // 企业风采
-
-                // {
-                //     path: '/enterprise',
-                //     name: '企业风采',
-                //     component: enterprise
-                // },
-                // {
-                //     path: '/life',
-                //     name: '员工生活',
-                //     component: life
-                // },
-                // {
-                //     path: '/enterprise',
-                //     name: '员工活动',
-                //     component: enterprise
-                // },
-
-                // 社会责任
-                // {
-                //     name: "社会责任",
-                //     path: "/shzr",
-                //     component: shzr
-                // },
-                // {
-                //     name: "社会公益",
-                //     path: "/shzr",
-                //     component: shzr
-                // },
-                // {
-                //     name: "科技创新",
-                //     path: "/kjcx",
-                //     component: kjcx
-                // },
-                // 在线留言
-                // {
-                //     path: '/zxly',
-                //     name: '在线留言',
-                //     component: zxly
-                // },
-                // {
-                //     path: '/tsjy',
-                //     name: '投诉建议',
-                //     component: tsjy
-                // },
-
-                // home模块
-                {
-                    path: '/home',
-                    name: 'home',
-                    component: home
-                }
             ]
         }
-    ],
-    mode: 'history',
-    scrollBehavior: () => ({
-        y: 0
-    }),
-    base: '/dist/', // 加上这一行
+    ]
+
 })
 
 export default router

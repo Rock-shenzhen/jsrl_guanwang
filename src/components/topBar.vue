@@ -49,9 +49,9 @@ export default {
             { name: "人才招聘", to: "/job" }
           ]
         },
-          {
+        {
           name: "智慧供热",
-          to: "/zhgr",
+          to: "/zhgr"
         },
         {
           name: "服务",
@@ -65,7 +65,7 @@ export default {
         },
         {
           name: "投资者",
-          to: "/tzz",  
+          to: "/tzz"
         },
         {
           name: "新闻资讯",
@@ -79,7 +79,7 @@ export default {
         },
         {
           name: "合作伙伴",
-          to: "/hzhb",
+          to: "/hzhb"
         }
       ]
     };
@@ -134,7 +134,7 @@ export default {
       position: absolute;
       float: left;
       left: 0;
- top: -100px;
+      top: -100px;
       transition-duration: 0.3s;
       // bottom: 0px;      // background-color: #2e3092;
       img {
@@ -142,90 +142,112 @@ export default {
         margin-top: 30px;
         // bottom: 0;
       }
-      &::before {
-        content: "";
-        position: absolute;
-        left: 665px;
-        top: 460px;
-        width: 50px;
-        height: 5px;
-        background-color:rgba(7, 102, 177) ;
-        -webkit-transform: rotate(-45deg);
-        -moz-transform: rotate(-45deg);
-        -ms-transform: rotate(-45deg);
-        -o-transform: rotate(-45deg);
-        transform: rotate(-45deg);
-        -webkit-animation: searchLights 3s ease-in 0s infinite;
-        -o-animation: searchLights 4s ease-in 0s infinite;
-        animation: searchLights 3s ease-in 0s infinite;
-      }
-      @-webkit-keyframes searchLights {
-        0%,
-        75% {
-          left: 110px;
-          top: 100;
-        }
-        100% {
-          left: 210px;
-          top: 200px;
-        }
-      }
-      @-o-keyframes searchLights {
-        0%,
-        75% {
-          left: 110px;
-          top: 100;
-        }
-        100% {
-          left: 210px;
-          top: 200px;
-        }
-      }
-      @-moz-keyframes searchLights {
-        0%,
-        75% {
-          left: 110px;
-          top: 60px;
-        }
-        100% {
-          left: 210px;
-          top: 60px;
-        }
-      }
-      @keyframes searchLights {
-        0%,
-        75% {
-          left: 70px;
-          top: 60px;
-        }
-        100% {
-          left: 350px;
-          top: 60px;
-        }
-      }
+      // &::before {
+      //   content: "";
+      //   position: absolute;
+      //   left: 665px;
+      //   top: 460px;
+      //   width: 50px;
+      //   height: 5px;
+      //   background-color: rgba(7, 102, 177);
+      //   // -webkit-transform: rotate(45deg);
+      //   // -moz-transform: rotate(45deg);
+      //   // -ms-transform: rotate(45deg);
+      //   // -o-transform: rotate(45deg);
+      //   transform: rotate(90deg);
+      //   -webkit-animation: searchLights 3s ease-in 0s infinite;
+      //   -o-animation: searchLights 4s ease-in 0s infinite;
+      //   animation: searchLights 3s ease-in 0s infinite;
+      // }
+      // @-webkit-keyframes searchLights {
+      //   0%,
+      //   75% {
+      //     left: 110px;
+      //     top: 100;
+      //   }
+      //   100% {
+      //     left: 210px;
+      //     top: 200px;
+      //   }
+      // }
+      // @-o-keyframes searchLights {
+      //   0%,
+      //   75% {
+      //     left: 110px;
+      //     top: 100;
+      //   }
+      //   100% {
+      //     left: 210px;
+      //     top: 200px;
+      //   }
+      // }
+      // @-moz-keyframes searchLights {
+      //   0%,
+      //   75% {
+      //     left: 110px;
+      //     top: 60px;
+      //   }
+      //   100% {
+      //     left: 210px;
+      //     top: 60px;
+      //   }
+      // }
+      // @keyframes searchLights {
+      //   0%,
+      //   75% {
+      //     left: 70px;
+      //     top: 60px;
+      //   }
+      //   100% {
+      //     left: 350px;
+      //     top: 60px;
+      //   }
+      // }
+      // @-webkit-keyframes searchLights {
+      //   0%,
+      //   75% {
+      //     left: -100px;
+      //     top: 0;
+      //   }
+      //   100% {
+      //     left: 120px;
+      //     top: 100px;
+      //   }
+      // }
+      // @-o-keyframes searchLights {
+      //   0%,
+      //   75% {
+      //     left: -100px;
+      //     top: 0;
+      //   }
+      //   100% {
+      //     left: 120px;
+      //     top: 100px;
+      //   }
+      // }
+      // @-moz-keyframes searchLights {
+      //   0%,
+      //   75% {
+      //     left: -100px;
+      //     top: 0;
+      //   }
+      //   100% {
+      //     left: 120px;
+      //     top: 100px;
+      //   }
+      // }
+      // @keyframes searchLights {
+      //   0%,
+      //   75% {
+      //     left: -100px;
+      //     top: 0;
+      //   }
+      //   100% {
+      //     left: 120px;
+      //     top: 100px;
+      //   }
+      // }
     }
-
-    // .logo {
-    //   top: -100px;
-    //   position: absolute;
-    //   float: left;
-    //   // margin: 18px 0 0 10px;
-    //   // width: 220px;
-    //   // max-height: 50px;
-    //   // overflow: hidden;
-    //   transition-duration: 0.5s;
-    //   img {
-    //    width: 100%;
-    //     margin-top: 30px;
-    //     // bottom: 0;
-    //   }
-    // }
-    // .logo-site img,.logo-sites img{width:220px;max-height:50px}@media screen and (max-width:480px){
-    // .logo-site,.logo-sites{width:140px}}@media screen and (min-width:900px){
-    // .logo-site:before{content:"";position:absolute;left:-665px;top:-460px;width:220px;height:15px;background-color:rgba(255,255,255,.5);-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-ms-transform:rotate(-45deg);-o-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-animation:searchLights 1s ease-in 1s infinite;-o-animation:searchLights 1s ease-in 1s infinite;animation:searchLights 1s ease-in 1s infinite}}@-webkit-keyframes searchLights{0%{left:-100px;top:0}to{left:120px;top:100px}}@-o-keyframes searchLights{0%{left:-100px;top:0}to{left:120px;top:100px}}@-moz-keyframes searchLights{0%{left:-100px;top:0}to{left:120px;top:100px}}@keyframes searchLights{0%{left:-100px;top:0}to{left:120px;top:100px}}
-    // .site-title{font-size:24px;font-size:2.4rem;font-weight:700;padding:0 0 2px 0}
-    // .site-name{display:none}@media screen and (min-width:900px){
-    // .logo-site img,.logo-sites img{transition-duration:.8s}
 
     .nav {
       position: absolute;

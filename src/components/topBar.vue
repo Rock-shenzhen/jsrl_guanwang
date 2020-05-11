@@ -35,43 +35,9 @@ export default {
       current: -1,
       navBar: [
         { name: "网站首页", to: "/home" },
+        // 我们
         {
-          name: "企业风采",
-          to: "/enterprise",
-          children: [
-            { name: "企业活动", to: "/enterprise" },
-            { name: "员工生活", to: "/life" }
-          ]
-        },
-        {
-          name: "新闻公告",
-          to: "/news",
-          children: [
-            { name: "企业新闻", to: "/news" },
-            { name: "行业新闻", to: "/hyxw" },
-            { name: "企业公告", to: "/gsgg" },
-            { name: "政策法规", to: "/zcfg" }
-          ]
-        },
-        {
-          name: "社会责任",
-          to: "/shzr",
-          children: [
-            { name: "社会公益", to: "/shzr" },
-            { name: "科技创新", to: "/kjcx" }
-          ]
-        },
-        {
-          name: "业务平台",
-          to: "/wssc",
-          children: [
-            { name: "用热报装", to: "/yrbzpt" },
-            { name: "网上营业厅", to: "/yewu" },
-            { name: "网上商城", to: "/wssc" }
-          ]
-        },
-        {
-          name: "关于我们",
+          name: "我们",
           to: "/we",
           children: [
             { name: "公司简介", to: "/we" },
@@ -84,11 +50,63 @@ export default {
             { name: "人才招聘", to: "/job" }
           ]
         },
+        // 智慧供热
         {
-          name: "在线留言",
-          to: "/zxly",
-          children: [{ name: "投诉建议", to: "/tsjy" }]
+          name: "智慧供热",
+          to: "/zhgr"
+          // children: [{ name: "投诉建议", to: "/tsjy" }]
+        },
+        // 服务
+        {
+          name: "服务",
+          to: "/fw",
+          children: [
+            { name: "网上营业厅", to: "/fw" },
+            { name: "用热报装", to: "/yrbzpt" },
+            { name: "网上商城", to: "/wssc" },
+            { name: "投诉建议", to: "/tsjy" }
+          ]
+        },
+        // 投资者
+        {
+          name: "投资者",
+          to: "/tzz"
+          // children: [{ name: "投诉建议", to: "/tsjy" }]
+        },
+        // 新闻资讯
+        {
+          name: "新闻资讯",
+          to: "/news",
+          children: [
+            { name: "企业新闻", to: "/news" },
+            { name: "行业新闻", to: "/hyxw" },
+            { name: "企业公告", to: "/gsgg" },
+            { name: "政策法规", to: "/zcfg" }
+          ]
+        },
+        // 合作伙伴
+        {
+          name: "合作伙伴",
+          to: "/hzhb"
+          // children: [{ name: "投诉建议", to: "/tsjy" }]
         }
+        // {
+        //   name: "企业风采",
+        //   to: "/enterprise",
+        //   children: [
+        //     { name: "企业活动", to: "/enterprise" },
+        //     { name: "员工生活", to: "/life" }
+        //   ]
+        // },
+
+        // {
+        //   name: "社会责任",
+        //   to: "/shzr",
+        //   children: [
+        //     { name: "社会公益", to: "/shzr" },
+        //     { name: "科技创新", to: "/kjcx" }
+        //   ]
+        // }
       ]
     };
   },
@@ -140,17 +158,101 @@ export default {
     height: 110px;
     .logo {
       position: absolute;
+      float: left;
       left: 0;
-	  top: -100px;
-      // bottom: 0px;
-
-      // background-color: #2e3092;
+ top: -100px;
+      transition-duration: 0.3s;
+      // bottom: 0px;      // background-color: #2e3092;
       img {
         width: 100%;
         margin-top: 30px;
         // bottom: 0;
       }
+      &::before {
+        content: "";
+        position: absolute;
+        left: 665px;
+        top: 460px;
+        width: 50px;
+        height: 5px;
+        background-color:rgba(7, 102, 177) ;
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        -webkit-animation: searchLights 3s ease-in 0s infinite;
+        -o-animation: searchLights 4s ease-in 0s infinite;
+        animation: searchLights 3s ease-in 0s infinite;
+      }
+      @-webkit-keyframes searchLights {
+        0%,
+        75% {
+          left: 110px;
+          top: 100;
+        }
+        100% {
+          left: 210px;
+          top: 200px;
+        }
+      }
+      @-o-keyframes searchLights {
+        0%,
+        75% {
+          left: 110px;
+          top: 100;
+        }
+        100% {
+          left: 210px;
+          top: 200px;
+        }
+      }
+      @-moz-keyframes searchLights {
+        0%,
+        75% {
+          left: 110px;
+          top: 60px;
+        }
+        100% {
+          left: 210px;
+          top: 60px;
+        }
+      }
+      @keyframes searchLights {
+        0%,
+        75% {
+          left: 70px;
+          top: 60px;
+        }
+        100% {
+          left: 350px;
+          top: 60px;
+        }
+      }
     }
+
+    // .logo {
+    //   top: -100px;
+    //   position: absolute;
+    //   float: left;
+    //   // margin: 18px 0 0 10px;
+    //   // width: 220px;
+    //   // max-height: 50px;
+    //   // overflow: hidden;
+    //   transition-duration: 0.5s;
+    //   img {
+    //    width: 100%;
+    //     margin-top: 30px;
+    //     // bottom: 0;
+    //   }
+    // }
+    // .logo-site img,.logo-sites img{width:220px;max-height:50px}@media screen and (max-width:480px){
+    // .logo-site,.logo-sites{width:140px}}@media screen and (min-width:900px){
+    // .logo-site:before{content:"";position:absolute;left:-665px;top:-460px;width:220px;height:15px;background-color:rgba(255,255,255,.5);-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-ms-transform:rotate(-45deg);-o-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-animation:searchLights 1s ease-in 1s infinite;-o-animation:searchLights 1s ease-in 1s infinite;animation:searchLights 1s ease-in 1s infinite}}@-webkit-keyframes searchLights{0%{left:-100px;top:0}to{left:120px;top:100px}}@-o-keyframes searchLights{0%{left:-100px;top:0}to{left:120px;top:100px}}@-moz-keyframes searchLights{0%{left:-100px;top:0}to{left:120px;top:100px}}@keyframes searchLights{0%{left:-100px;top:0}to{left:120px;top:100px}}
+    // .site-title{font-size:24px;font-size:2.4rem;font-weight:700;padding:0 0 2px 0}
+    // .site-name{display:none}@media screen and (min-width:900px){
+    // .logo-site img,.logo-sites img{transition-duration:.8s}
+
     .nav {
       position: absolute;
       // margin-left: 100px;
@@ -163,10 +265,11 @@ export default {
         height: 100%;
         padding-top: 55px;
         li {
-
           // border-radius: 8px;
+          // margin-right: 10px;
           position: relative;
           float: left;
+          width: 80px;
           padding: 0 12px;
           height: 50px;
           line-height: 50px;
@@ -176,7 +279,7 @@ export default {
 
           // }
           &:hover > a {
-            color: #BBBBBB;
+            color: #bbbbbb;
           }
           .sanjiaoxing {
             position: absolute;
@@ -187,7 +290,7 @@ export default {
             transform: rotate(180deg);
 
             display: block;
-            margin:auto;
+            margin: auto;
             height: 0;
             width: 0;
             border-top: 10px solid #fff;

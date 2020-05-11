@@ -391,7 +391,6 @@ export default {
   }
 };
 </script>
-
 <style lang="less">
 #main {
   min-width: 320px;

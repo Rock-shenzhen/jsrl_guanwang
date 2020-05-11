@@ -108,8 +108,7 @@
       </div>-->
     </div>
     <h2 class="juzhong">新闻资讯板块</h2>
-    <h3 class="jz3">导航栏中每个大模块，都设统一一个背景图，风格可按需求设置</h3>
-  </div>
+    <h3 class="jz3">导航栏中每个大模块，都设统一一个背景图，风格可按需求设置</h3>  </div>
 </template>
 
 <script>

@@ -5,8 +5,7 @@
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \jsrl_guanwang\config\index.js
- */
-'use strict'
+ */'use strict'
 // Template version: 1.3.1
 // see http://vuejs-templates.github.io/webpack for documentation.
 
@@ -20,14 +19,13 @@ module.exports = {
         assetsPublicPath: '/dist/',
         proxyTable: {},
 
-        // Various Dev Server settings
+      // Various Dev Server settings
         host: '127.0.0.1', // can be overwritten by process.env.HOST
         port: 9090, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
         autoOpenBrowser: false,
         errorOverlay: true,
         notifyOnErrors: true,
         poll: false, // https://webpack.js.org/configuration/dev-server/#devserver-watchoptions-
-
 
         /**
          * Source Maps

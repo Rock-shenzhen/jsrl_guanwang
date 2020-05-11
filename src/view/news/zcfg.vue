@@ -1,21 +1,27 @@
 <!--
  * @Author: your name
  * @Date: 2020-04-26 09:01:54
- * @LastEditTime: 2020-04-29 11:10:52
+ * @LastEditTime: 2020-04-30 10:09:01
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \jsrl_guanwang\src\view\enterprise\index.vue
  -->
 <template>
   <div id="enterprise">
-    <div class="s_banner">      
+    <div class="s_banner">
+     <div class="item">
+        <img src="../../assets/0417f07f17ca4deb93d3ef262540e341.jpg" alt />
+      </div>
       <div class="banner_area w1280" style="width: 1280px;">
-        <span class="s_b_text">
-          <h1 class="fnt_30">我们</h1>
-          <h4 class="fnt_14">ABOUT</h4>
+      <!--  <span class="s_b_text">
+          <h1 class="fnt_30"></h1>
+          <h4 class="fnt_14">enterprise</h4>
         </span>
+        -->
       </div>
     </div>
+    <h2 class="juzhong">政策法规板块</h2>
+    <h3 class="jz3">导航栏中每个大模块，都设统一一个背景图，风格可按需求设置</h3>
   </div>
 </template>
 
@@ -29,10 +35,10 @@ export default {
 
 <style>
 img {
-  -webkit-transition: all 0.5s;
+ /* -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
-  transition: all 0.5s;
+  transition: all 0.5s;*/
   border: 0;
   display: inline-block;
 }

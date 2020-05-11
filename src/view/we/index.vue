@@ -1,116 +1,115 @@
 <template>
   <div id="we">
     <div class="s_banner">
+      <div class="item">
+        <img src="../../assets/0417f07f17ca4deb93d3ef262540e341.jpg" alt />
+      </div>
       <div class="banner_area w1280" style="width: 1280px;">
-        <span class="s_b_text">
+        <!--<span class="s_b_text">
           <h1 class="fnt_30">我们</h1>
           <h4 class="fnt_14">ABOUT</h4>
-        </span>
+        </span>-->
       </div>
+      <h3 class="jz3">导航栏中每个大模块，都设统一一个背景图，风格可按需求设置</h3>
       <div class="wrap_con_nobac pb_200">
         <div class="sub_main_con cf">
           <div class="sub_menu fnt_14">
-            <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-            <div class="sub_menu fnt_14">
-              <a href="http://www.jxcc.com:80/">首页</a>
-              <span></span>
-              <a href="http://www.jxcc.com:80/channel/4a864176f35f450689df46cbe6916cfb.html">我们</a>
-            </div>
+            <router-link to="/home">首页</router-link>
+            <span></span>
+            <router-link to="/we">我们</router-link>
           </div>
         </div>
       </div>
       <div class="wrap_con_us">
         <div class="sub_main_us cf min_h_us">
           <div class="us_year fnt_60 mt_10">2020</div>
-          <a href="http://www.jxcc.com:80/channel/748a941674804fbd864e321366debcf3.html">
-            <ul class="us_list">
-              <li>
-                <p></p>
-              </li>
-              <li>
-                <p></p>
-                <h1 class="fnt_22">财富世界500强</h1>
-                <p></p>
-                <p class="fnt_18 mt_5">以348.7亿美元的营业收入位列《财富》世界500强第358位</p>
-                <p></p>
-              </li>
-              <li>
-                <p></p>
-              </li>
-              <li>
-                <p></p>
-                <h1 class="fnt_22">财富中国500强</h1>
-                <p></p>
-                <p class="fnt_18 mt_5">江西铜业以2152.9亿元的营业收入和24.47亿元的净利润位列榜单第45位</p>
-                <p class="fnt_18 mt_5">恒邦股份以212亿元的营业收入和4.06亿元的净利润位列榜单第393位</p>
-                <p></p>
-              </li>
-              <li>
-                <p></p>
-              </li>
-              <li>
-                <p></p>
-                <h1 class="fnt_22">《福布斯》全球企业2000强</h1>
-                <p></p>
-                <p class="fnt_18 mt_5">位居2019《福布斯》全球企业2000强第1227位</p>
-                <p></p>
-              </li>
-              <li>
-                <p></p>
-              </li>
-              <li>
-                <p></p>
-                <h1 class="fnt_22">中国企业500强</h1>
-                <p></p>
-                <p class="fnt_18 mt_5">以2306.54亿元的营业收入位居2019中国企业500强第88位</p>
-                <p></p>
-              </li>
-            </ul>
-            <p>
-              <br />
-            </p>
-          </a>
+          <ul class="us_list">
+            <li>
+              <p></p>
+            </li>
+            <li>
+              <p></p>
+              <h1 class="fnt_22">集中供热主管网发展到365公里</h1>
+              <p></p>
+              <p class="fnt_18 mt_5">集中供热入网面积达到3100万平方米。</p>
+              <p></p>
+            </li>
+            <li>
+              <p></p>
+            </li>
+            <li>
+              <p></p>
+              <h1 class="fnt_22">xxxxxxxxx</h1>
+              <p></p>
+              <p class="fnt_18 mt_5">xxxxxxxxxxxxxxxxxxxxxxxx</p>
+              <p class="fnt_18 mt_5">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+              <p></p>
+            </li>
+            <li>
+              <p></p>
+            </li>
+            <li>
+              <p></p>
+              <h1 class="fnt_22">xxxxxxxxxxxxxxx</h1>
+              <p></p>
+              <p class="fnt_18 mt_5">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+              <p></p>
+            </li>
+            <li>
+              <p></p>
+            </li>
+            <li>
+              <p></p>
+              <h1 class="fnt_22">xxxxxxxxxxxxxxxxxxxxxxxxxxxxx</h1>
+              <p></p>
+              <p class="fnt_18 mt_5">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+              <p></p>
+            </li>
+          </ul>
+          <p>
+            <br />
+          </p>
         </div>
       </div>
       <div class="us_con_flist">
         <ul>
           <li>
-            <a href="http://www.jxcc.com:80/channel/fd5aab01a1df42ca80541b9eb611eedb.html">
+            <router-link to="/organization">
               <img src="../../assets/us_p01.jpg" />
               <h1 class="fnt_26 mt_25">组织架构</h1>
-            </a>
+            </router-link>
           </li>
           <li>
-            <a href="http://www.jxcc.com:80/channel/4ccb06d3fa614beebeb737f89c09f998.html">
+            <router-link to="/history">
               <img src="../../assets/us_p02.jpg" />
               <h1 class="fnt_26 mt_25">发展历程</h1>
-            </a>
+            </router-link>
           </li>
           <li>
-            <a href="http://www.jxcc.com:80/channel/56545073c89342b1b58688b97b9a40a1.html">
+            <router-link to="/leadership">
               <img src="../../assets/us_p03.jpg" />
               <h1 class="fnt_26 mt_25">高管团队</h1>
-            </a>
+            </router-link>
           </li>
           <li>
-            <a href="http://www.jxcc.com:80/channel/fbc9bc1708e44538a53dcb44d7b06ebb.html">
+            <router-link to="/member">
               <img src="../../assets/us_p04.jpg" />
               <h1 class="fnt_26 mt_25">金盛人</h1>
-            </a>
+            </router-link>
           </li>
         </ul>
       </div>
       <div class="us_sy_con cf pt_100">
         <div class="us_sy">
           <div class="us_le_c" style="width: 665.6px; height: 665.6px;">
-            <a href="http://www.jxcc.com:80/channel/b4e6324bc52c40dd8fb15ff0234b468d.html">
               <img src="../../assets/a5ee48403bbd4959b268ce5de4a3eef6.jpg" />
-            </a>
           </div>
           <div class="us_ri_c" style="width: 665.6px; height: 665.6px; margin-top: 66.56px;">
             <h1 class="fnt_36">事业宣言</h1>
-            <p>身处新的发展阶段，立足新的发展起点，我们需要更加坚定的信念，来坚守内心深处的那份契约我们建立愿景，重构使命，是为了寻找更加清晰的激励和启示；</p>
-            <p>我们反省责任与价值，是为了闪耀企业属性之中的人本光辉。 我们深知，文化是江铜事业的正向磁场江铜事业宣言，是江铜员工理想信念和精神气质的另一种表达。</p>
+            <p>以人为本； 科学管理；</p>
+            <P>开拓用户； 谋求发展；</P>
+            <P>安全高效； 诚信服务。</P>
+            <p>以质量求生存；以服务求发展；向管理要效益；为社会做贡献。</p>
           </div>
         </div>
       </div>
@@ -177,7 +176,7 @@ meta {
 }
 
 .pb_200 {
-  padding-bottom: 200px;
+  padding-bottom: 30px;
 }
 .pb_fre {
   padding-bottom: 0px !important;
@@ -208,7 +207,6 @@ meta {
 .sub_main_us {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 115px 0 0;
 }
 .us_year {
   color: #dbc07f;

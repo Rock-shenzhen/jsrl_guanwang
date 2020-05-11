@@ -1,642 +1,394 @@
 <template>
   <div>
     <div id="main">
-      <!-- 顶部背景图轮播 -->
+      <!-- 动画模块开始 -->
       <div style="position: relative;overflow: hidden;">
         <div id="main-swiper" class="swiper-container">
           <div class="swiper-wrapper">
-            <!--style="width: 7014px; height: 613px; transform: translate3d(-4676px, 0px, 0px); transition-duration: 0.8s;"   -->
             <div class="swiper-slide">
-              <img id="first-img" src="../../assets/main1.jpg" class="loop-img" />
+              <video
+                width="100%"
+                id="video"
+                autoplay
+                loop
+                preload
+                muted
+                x-webkit-airplay="true"
+                airplay="allow"
+                webkit-playsinline="true"
+                playsinline="true"
+                class="loop-img"
+              >
+                <source src="http://www.ctitech.net/dist/syxcsp.mp4" type="video/mp4" />
+              </video>
             </div>
-            <!--<div class="swiper-slide swiper-slide-duplicate" style="width: 1169px; height: 613px;">
-              <img src="../../assets/main2.jpg" class="loop-img" />
-            </div>
-            <div class="swiper-slide" style="width: 1169px; height: 613px;">
-              <img src="../../assets/dangjian.jpg" class="loop-img" />
-            </div>
-            <div class="swiper-slide" style="width: 1169px; height: 613px;">
-              <img src="../../assets/yingshang.jpg" class="loop-img" />
-            </div>
-            <div
-              class="swiper-slide swiper-slide-visible swiper-slide-active"
-              style="width: 1169px; height: 613px;"
-            >
-              <img src="../../assets/main2.jpg" class="loop-img" />
-            </div>-->
-            <!--<div class="swiper-slide swiper-slide-duplicate" style="width: 1169px; height: 613px;">
-              <img id="first-img" src="../../assets/main1.jpg" class="loop-img" />
-              <div class="app-row">
-                <p data-aos="fade-right" class="t1">发展清洁能源</p>
-                <p data-aos="fade-right" class="t1">燃点绿色品质生活</p>
-                <button
-                  data-aos="fade-right"
-                  onclick="location.assign(&quot;views/aboutSr/shenranjianjie.html&quot;)"
-                  class="bt"
-                >
-                  走进深燃
-                  <i class="iconfont iconxiala"></i>
-                </button>
-              </div>
-            </div>-->
           </div>
-          <div class="pagination">
-            <span class="swiper-pagination-switch"></span>
-            <span class="swiper-pagination-switch"></span>
-            <span class="swiper-pagination-switch"></span>
-            <span class="swiper-pagination-switch swiper-visible-switch swiper-active-switch"></span>
-          </div>
-          <!--<i onclick="mainSwiper.swipePrev()" class="iconfont iconxiangzuo"></i>
-          <i onclick="mainSwiper.swipeNext()" class="iconfont iconxiangyou"></i>-->
-          <img src="../../assets/zuojiantou.png" class="zuo-img jiantou" alt="点击" />
-          <img src="../../assets/youjiantou.png" class="you-img jiantou" alt="点击" />
         </div>
-        <!--<div class="bt-box-outer">
-          <div class="app-row bt-box-main">
-            <div data-aos="fade-down" style="opacity: 100;">
-              <span class="item">
-                <a class="img-box" style="background-image: url('../../assets/3.png');">
-                  <img src="../../assets/33.png" />
-                </a>
-                <span class="t">微博</span>
-              </span>
-              <span class="item">
-                <a class="img-box" style="background-image: url('../../assets/4.png');">
-                  <img src="../../assets/44.png" />
-                  <div class="code-box">
-                     <img src="../../assets/4439c452439a16c15f1202.jpg" />
-                    <span></span>
-                  </div>
-                </a>
-                <span class="t">公众号</span>
-              </span>
-              <span class="item">
-                <a class="img-box" style="background-image: url('../../assets/5.png');">
-                  <img src="../../assets/dingqi2.png" />
-                  <div class="code-box">
-                  <img src="../../assets/4439c452439a16c166cd04.jpg" />
-                    <span></span>
-                  </div>
-                </a>
-                <span class="t">抖音</span>
-              </span>
-            </div>
-          </div>
-        </div>-->
-        <div style="background: rgb(244, 246, 251); display: none;">
+        <!-- <div style="background: rgb(244, 246, 251); display: none;">
           <div id="notice-swiper" class="app-row swiper-container">
             <div class="swiper-wrapper"></div>
           </div>
+        </div>-->
+      </div>
+      <!-- 动画模块结束 -->
+      <!-- 企业宣言开始 -->
+      <div class="descript_area">
+        <p class="txt">
+          金盛主要从事热力产品的生产销售，水电器材及相关设备、建材、五金百货、机电设备的销售，压力管道的安装，压力管道的设计。
+          <span class="pc"></span>秉承“供热暖身，服务暖心”的经营理念
+          <!--<span class="m"></span>助力企业数字化升级。 -->
+          <span class="pc"></span>以质量求生存；以服务求发展；向管理要效益；为社会做贡献。
+        </p>
+      </div>
+      <!-- 企业宣言结束-->
+      <!--我们模块开始 -->
+      <div class="details_area">
+        <div class="details_con">
+          <ul class="detail_list">
+            <li>
+              <router-link to="/we" class="sdmk">
+                <p>公司简介</p>
+                <img src="../../assets/sdmk1.jpg" alt="公司简介" />
+              </router-link>
+            </li>
+            <li>
+              <router-link to="/culture" class="sdmk">
+                <p>企业文化</p>
+                <img src="../../assets/sdmk2.jpg" alt="企业文化" />
+              </router-link>
+            </li>
+            <li class="last">
+              <router-link to="/tdjs" class="sdmk">
+                <p>团队建设</p>
+                <img src="../../assets/sdmk3.jpg" alt="团队建设" />
+              </router-link>
+            </li>
+          </ul>
         </div>
       </div>
-      <!-- 头条资讯 -->
-      <div class="bg-box today-bg-box">
-        <div data-aos="fade-up" style="opacity: 1;" class="am-scrollspy-init">
-          <div id="today-sr-swiper" class="app-row swiper-container">
-            <p class="t0">头条资讯</p>
-            <div class="swiper-wrapper">
-              <div data-index="0" class="swiper-slide swiper-slide-visible swiper-slide-active">
-                <img src="../../assets/jsgr.jpg" class="td-img" />
-                <div class="text-box">
-                  <p class="t1">头条资讯</p>
-                  <p onclick="clickZhiXun()" class="t2">开封市金盛热力有限公司关于集中供热相关通知</p>
-                  <p class="t3">2020-04-27</p>
-                  <p class="t4">
-                    <span class="ellipsis">...</span>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="pagination">
-              <span class="swiper-pagination-switch swiper-visible-switch swiper-active-switch"></span>
-            </div>
-            <a  class="view-more hvr-wobble-bottom">阅读全文</a>
+      <!--我们模块结束 -->
+      <!-- 业务模块开始 -->
+      <div class="link_area">
+        <div class="link_hook">
+          <div class="link_tab">
+            <ul class="tab_list">
+              <li class="list_item_1 current" data-num="1">
+                <router-link to="/fw" class="block-link">
+                  <h3 class="tit">网上营业厅</h3>
+                  <p class="txt">让生活更便捷</p>
+                  <i class="icon icon_arrow_r"></i>
+                </router-link>
+              </li>
+              <li class="list_item_2" data-num="2">
+                <router-link class="block-link" to="/yrbzpt">
+                  <h3 class="tit">用热报装</h3>
+                  <p class="txt">让服务更便捷</p>
+                  <i class="icon icon_arrow_r"></i>
+                </router-link>
+              </li>
+              <li class="list_item_3" data-num="3">
+                <router-link class="block-link" to="/wssc">
+                  <h3 class="tit">网上商城</h3>
+                  <p class="txt">让客户更便捷</p>
+                  <i class="icon icon_arrow_r"></i>
+                </router-link>
+              </li>
+            </ul>
           </div>
-        </div>
-      </div>
-      <!-- 三大模块 -->
-      <div class="bg-box news-bg-box">
-        <div data-aos="fade-up" class="news-box">
-          <div class="item item1 am-scrollspy-init" style="opacity: 1;">
-            <img src="../../assets/news1.png" class="img1" />
-            <div
-              class="text-box"
-              style="opacity: 0.9; background-image: linear-gradient(44deg, rgba(191, 0, 0, 0.91) 0px, rgba(189, 64, 0, 0.78) 100%);"
-            >
-              <span
-                onclick="location.assign(views/partyCommittee/dangWeiJianShe.html)"
-                class="title"
-              >深燃党建</span>
-              <p>
-                <span>04-27 深圳市燃气集团股份有限公司党委关于巡察整改情况的通报</span>
-                <i class="iconfont iconxiangyou"></i>
-              </p>
-              <p>
-                <span>04-19 习近平主持召开中央政治局常务委员会会议</span>
-                <i class="iconfont iconxiangyou"></i>
-              </p>
-              <p>
-                <span>04-15 输配公司党委开展形式多样的党建“结对子”活动</span>
-                <i class="iconfont iconxiangyou"></i>
-              </p>
+          <div class="link_content">
+            <div class="con con_1" style="display: block;">
+              <ul class="link_con_list">
+                <li class="item_1">
+                  <router-link to="/fw1">
+                    <div class="script">
+                      <h4 class="tit">服务1</h4>
+                      <p class="txt">说点什么好呢</p>
+                      <i class="icon icon_arrow_r"></i>
+                    </div>
+                  </router-link>
+                </li>
+                <li class="item_2">
+                  <router-link to="/fw2">
+                    <div class="script">
+                      <h4 class="tit">服务2</h4>
+                      <p class="txt">我也不知道</p>
+                      <i class="icon icon_arrow_r"></i>
+                    </div>
+                  </router-link>
+                </li>
+                <li class="item_3">
+                  <router-link to="/fw3">
+                    <div class="script">
+                      <h4 class="tit">服务3</h4>
+                      <p class="txt">你去问问她</p>
+                      <i class="icon icon_arrow_r"></i>
+                    </div>
+                  </router-link>
+                </li>
+                <li class="item_4">
+                  <router-link to="/fw4">
+                    <div class="script">
+                      <h4 class="tit">服务4</h4>
+                      <p class="txt">她不告诉我</p>
+                      <i class="icon icon_arrow_r"></i>
+                    </div>
+                  </router-link>
+                </li>
+              </ul>
             </div>
-          </div>
-          <div class="item item2 am-scrollspy-init" style="opacity: 1;">
-            <img src="../../assets/news2.png" class="img1" />
-            <div
-              class="text-box"
-              style="opacity: 1; background-image: linear-gradient(44deg, rgb(7, 102, 177) 0px, rgb(45, 166, 143) 100%);"
-            >
-              <span onclick="location.assign(views/news/shenranZixun.html)" class="title">深燃资讯</span>
-              <p>
-                <span>04-17 深圳燃气召开2020年第一季度经济工作会暨疫情防控及巡察整改阶段性工作总结会</span>
-                <i class="iconfont iconxiangyou"></i>
-              </p>
-              <p>
-                <span>04-15 推进市属国企大湾区战略协同 深圳燃气成功进军天然气热电联产领域</span>
-                <i class="iconfont iconxiangyou"></i>
-              </p>
-              <p>
-                <span>03-11 深圳燃气节气海报入选新华社《中国名牌》杂志主题征集活动</span>
-                <i class="iconfont iconxiangyou"></i>
-              </p>
+            <div class="con con_2" style="display: none;">
+              <ul class="link_con_list">
+                <li class="item_1">
+                  <router-link to="/fw5">
+                    <div class="script">
+                      <h4 class="tit">服务5</h4>
+                      <p class="txt">早上好</p>
+                      <i class="icon icon_arrow_r"></i>
+                    </div>
+                  </router-link>
+                </li>
+                <li class="item_2">
+                  <router-link to="/fw6">
+                    <div class="script">
+                      <h4 class="tit">服务6</h4>
+                      <p class="txt">中午好</p>
+                      <i class="icon icon_arrow_r"></i>
+                    </div>
+                  </router-link>
+                </li>
+                <li class="item_3">
+                  <router-link to="/fw7">
+                    <div class="script">
+                      <h4 class="tit">服务7</h4>
+                      <p class="txt">
+                        晚上好
+                        <br />我要加班了~~~
+                      </p>
+                      <i class="icon icon_arrow_r"></i>
+                    </div>
+                  </router-link>
+                </li>
+              </ul>
             </div>
-          </div>
-          <div class="item item3 am-scrollspy-init" style="opacity: 1;">
-            <img src="../../assets/news3.jpg" class="img1" />
-            <div
-              class="text-box"
-              style="opacity: 1; background-image: linear-gradient(44deg, rgb(115, 181, 22) 0px, rgba(45, 166, 114, 0.9) 100%);"
-            >
-              <span onclick="location.assign(views/news/meitijujiao.html)" class="title">媒体聚焦</span>
-              <p>
-                <span>03-15 深圳燃气精准优化报装流程</span>
-                <i class="iconfont iconxiangyou"></i>
-              </p>
-              <p>
-                <span>03-13 能承担1/5深圳居民供气量，梅林LNG应急气化站可随时启用</span>
-                <i class="iconfont iconxiangyou"></i>
-              </p>
-              <p>
-                <span>03-03 为安全复工出实招，深圳燃气联合市住建局向部分施工人员提供新冠肺炎核酸检测</span>
-                <i class="iconfont iconxiangyou"></i>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- 两大模块 -->
-      <div class="summary-box-out">
-        <div class="app-row summary-box">
-          <div style="float: right;">
-            <div data-aos="fade-up-right" class="item item1 am-scrollspy-init" style="opacity: 1;">
-              <p class="t1">客户中心</p>
-              <p class="t2 hvr-float-shadow">营商环境</p>
-              <div class="img-box">
-                <div class="contain">
-                  <img src="../../assets/summary2.png" class="img1" />
-                </div>
-                <p class="t3">深圳燃气：积极落实支持商业客户共度难关举措获好评</p>
-                <span class="t4">2020-03-20</span>
-              </div>
-              <a href="views/businessEnvironment/yingshanghuanjin.html" class="t5 hvr-bounce-in">
-                了解更多
-                <img src="../../assets/arrow2.png" class="img2" />
-              </a>
-            </div>
-            <div data-aos="fade-up-left" class="item item2 am-scrollspy-init" style="opacity: 1;">
-              <p class="t1">天然气改造</p>
-              <p
-                onclick="location.assign(&quot;views/urbanVillages/index.html&quot;)"
-                class="t2 hvr-float-shadow"
-              >城中村改造</p>
-              <div class="img-box">
-                <div class="contain">
-                  <img
-                    onclick="location.assign(&quot;views/urbanVillages/index.html&quot;)"
-                    src="../../assets/summary3.png"
-                    class="img1"
-                  />
-                </div>
-                <p class="t3">宣传先行，助力城中村改造复工复产</p>
-                <span class="t4">2020-03-31</span>
-              </div>
-              <a href="views/urbanVillages/index.html" class="t5 hvr-bounce-in">
-                了解更多
-                <img src="../../assets/arrow2.png" class="img2" />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- 业务地图 -->
-      <div class="domain-box">
-        <div id="particles-js" style="height: 100%;">
-          <canvas
-            class="particles-js-canvas-el"
-            width="1169"
-            height="470"
-            style="width: 100%; height: 100%;"
-          ></canvas>
-        </div>
-        <div id="mapContent" class="app-row content">
-          <img src="../../assets/map2.png" class="map am-scrollspy-init" style="opacity: 1;" />
-          <span data-aos="fade-down" class="t1 am-scrollspy-init" style="opacity: 1;">深燃版图</span>
-          <button
-            data-aos="fade-right"
-            onclick="location.assign(&quot;views/aboutSr/shenRanBanTu.html&quot;)"
-            class="t2 am-scrollspy-init"
-            style="opacity: 1;"
-          >查看更多</button>
-          <div data-aos="fade-up" class="num-box">
-            <div class="item am-scrollspy-init" style="opacity: 1;">
-              <span class="t3 num1">1600</span>
-              <span class="t4">
-                覆盖人口超过
-                <span class="t5 num1">1600</span>万
-              </span>
-            </div>
-            <div class="item am-scrollspy-init" style="opacity: 1;">
-              <span class="t3 num2">14000</span>
-              <span class="t4">
-                运营燃气管道超过
-                <span class="t5 num2">14000</span>公里
-              </span>
-            </div>
-            <div class="item am-scrollspy-init" style="opacity: 1;">
-              <span class="t3 num3">40</span>
-              <span class="t4">
-                全国
-                <span class="t5 num3">40</span>个特许经营权城市
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- 金盛期刊 -->
-      <div class="journal-box am-scrollspy-init" style="opacity: 1;">
-        <div data-aos="fade-up" style="height: 100%;">
-          <div id="journal-swiper" class="app-row swiper-container">
-            <div class="swiper-wrapper" style="width: 800px; height: 500px;">
-              <!-- transform: translate3d(-800px, 0px, 0px); transition-duration: 0s;-->
-              <!-- 5600px-->
-              <!-- <div class="swiper-slide swiper-slide-duplicate" style="width: 800px; height: 500px;">
-                <a class="title-img-box hvr-curl-bottom-right">
-                  <img
-                    src="../../assets/3DDA535EE49A48FFA9A7403C448D6AF8.png"
-                    onclick="openDetail(view.periodical[4])"
-                    class="title-img"
-                  />
-                </a>
-                <div class="text-box">
-                  <span onclick="openDetail(view.periodical[4])" class="title">第71期：改革奋进正当时</span>
-                  <p>
-                    <span class="title2">刊首 FORWARD</span>
-                    <span class="title2">博览 NEWS</span>
-                  </p>
-                  <p>04 中俄东线天然气管道过境段：6月末实现全部贯通（等）</p>
-                  <p>06 深圳燃气组织召开深圳市天然气交易中心方案研究专家评审会（等）</p>
-                  <p>08 深圳发布全国首份优化用气营商环境白皮书</p>
-                  <p>12 深圳燃气2018年年度报告以及2019年一季报业绩点评摘选</p>
-                  <p class="last-p">14 攻坚决战 城中村改造再加速——专访城中村改造办公室张坚主任</p>
-                  <span class="title2">党建 PARTY BUILDING</span>
-                  <p class="last-p">16 党建进班组，党员上一线书记项目深化实施方案</p>
-                  <span class="title2">专题 TOPIC</span>
-                  <p>22 改革改了什么？</p>
-                  <p>26 坚持贯彻新发展理念引领深圳燃气高质量发展</p>
-                  <p>28 做深做实做细改革工作，确保圆满完成各项经营工作目标</p>
-                  <p></p>
-                </div>
-              </div>-->
-              <div
-                class="swiper-slide swiper-slide-visible swiper-slide-active"
-                style="width: 1200px; height: 700px;"
-              >
-                <a class="title-img-box hvr-curl-bottom-right">
-                  <img
-                    src="../../assets/880C4267300F48A180754B0DC946456A.jpg"
-                    onclick="openDetail(view.periodical[0])"
-                    class="title-img"
-                  />
-                </a>
-                <div class="text-box">
-                  <span onclick="openDetail(view.periodical[0])" class="title">第75期：2020深燃再出发</span>
-                  <p></p>
-                  <p>
-                    <span class="title2">
-                      新春贺词
-                      <span>FORWARD</span>
-                    </span>
-                    <span>&nbsp;</span>
-                    <span class="title2">
-                      博览
-                      <span>NEWS</span>
-                    </span>
-                    <span></span>
-                  </p>
-                  <p>
-                    <span>04</span> 全球LNG供应过剩将持续到年中（等）
-                    <span></span>
-                  </p>
-                  <p>
-                    <span>06 深燃党委召开巡察整改工作部署会</span>（等）
-                    <span></span>
-                  </p>
-                  <p>
-                    <span>08</span> 深圳燃气召开2019年度经济工作会等系列会议
-                    <span></span>
-                  </p>
-                  <p>
-                    <span>16</span> 2019中国资本市场十大事件
-                    <span></span>
-                  </p>
-                  <p class="last-p">
-                    <span>18 2019城中村改造大数据</span>
-                    <span></span>
-                  </p>
-                  <p>
-                    <span class="title2">
-                      党建
-                      <span>PARTY BUILDING</span>
-                    </span>
-                    <span></span>
-                  </p>
-                  <p>
-                    <span class="title2">
-                      <span>20 习近平出席国企党建工作会议：使国企成为党和国家最可信赖的依靠力量</span>
-                    </span>
-                    <span></span>
-                  </p>
-                  <p>
-                    <span class="title2">
-                      专题
-                      <span>TOPIC</span>
-                    </span>
-                    <span></span>
-                  </p>
-                  <p class="MsoNormal">
-                    <span>&nbsp;</span>
-                  </p>
-                  <p></p>
-                </div>
-              </div>
-              <!--
-              <div class="swiper-slide" style="width: 800px; height: 500px;">
-                <a class="title-img-box hvr-curl-bottom-right">
-                  <img
-                    src="https://guanwang-oss.oss-cn-shenzhen.aliyuncs.com/2019/12/30/7515FFE6266D4393B27D00F283BF3138.jpg"
-                    onclick="openDetail(view.periodical[1])"
-                    class="title-img"
-                  />
-                </a>
-                <div class="text-box">
-                  <span onclick="openDetail(view.periodical[1])" class="title">第74期：十年磨砺 蓄势蜕变</span>
-                  <p></p>
-                  <p style="margin-left:0cm;">
-                    <b>刊首</b>
-                    <b>FORWARD&nbsp;</b>
-                  </p>
-                  <p style="margin-left:0cm;">
-                    <b>博览</b>
-                    <b>NEWS</b>
-                  </p>
-                  <p class="Default">
-                    04
-                    中俄东线天然气管道投产通气（等）
-                    <span></span>
-                  </p>
-                  <p class="Default">
-                    06
-                    携手打造粤港澳大湾区液化天然气“生态圈” 助力大湾区绿色低碳发展（等）
-                    <span></span>
-                  </p>
-                  <p class="Default">
-                    12
-                    并购交易中的“分期付款”您知道吗？
-                    <span>18</span>城中村进行时——宣民生之声 传大众之心
-                  </p>
-                  <p class="Default">
-                    14
-                    全面对接自建项目 &nbsp;服务全市城中村改造大局
-                  </p>
-                  <p style="margin-left:0cm;">
-                    <b>党建</b>
-                    <b>PARTY BUILDING</b>
-                  </p>
-                  <p class="Default">
-                    18
-                    完善顶层设计 夯实制度基础用党建凝聚企业发展的磅礴力量
-                  </p>
-                  <p style="margin-left:0cm;">
-                    <b>专题</b>
-                    <b>TOPIC</b>
-                  </p>
-                  <p class="Default">
-                    22
-                    十年风雨 十年收获28
-                    适应新要求 锤炼硬功夫
-                    砥砺再出发
-                  </p>
-                  <p class="Default">
-                    24
-                    十年磨砺 蓄势蜕变
-                  </p>
-                  <p class="Default">
-                    30
-                    坚持“双区驱动”， 实现高质量发展
-                  </p>
-                  <p></p>
-                </div>
-              </div>
-              <div class="swiper-slide" style="width: 800px; height: 500px;">
-                <a class="title-img-box hvr-curl-bottom-right">
-                  <img
-                    src="https://guanwang-oss.oss-cn-shenzhen.aliyuncs.com/2019/11/11/F91A7F5CBBB84039BEC9AC10E2ECB35E.jpg"
-                    onclick="openDetail(view.periodical[2])"
-                    class="title-img"
-                  />
-                </a>
-                <div class="text-box">
-                  <span onclick="openDetail(view.periodical[2])" class="title">第73期：清风伴深燃</span>
-                  <p></p>
-                  <p>
-                    <span class="title2">刊首 FORWARD</span>
-                    <span>&nbsp;</span>
-                    <span class="title2">博览 NEWS</span>
-                  </p>
-                  <p>04西气东输工程：15年输气近5000亿方 近4亿人受益（等）</p>
-                  <p>06 深圳燃气举行国庆升旗仪式（等）</p>
-                  <p>08 深圳召开2019年第三季度经济工作会</p>
-                  <p>
-                    12 落实创新战略 加快转型发展——深圳燃气召开“
-                    <span>落实创新战略 加快转型发展</span>”主题研讨会
-                  </p>
-                  <p class="last-p">18 城中村进行时——宣民生之声 传大众之心</p>
-                  <p>
-                    <span class="title2">党建 PARTY BUILDING</span>
-                  </p>
-                  <p>
-                    <span class="title2">22 深圳燃气党委召开“不忘初心、牢记使命”主题教育总结大会</span>
-                  </p>
-                  <p>
-                    <span class="title2">专题 TOPIC</span>
-                  </p>
-                  <p>26 深圳燃气纪委全面从严治企大事记</p>
-                  <p>28 适应新要求 锤炼硬功夫 砥砺再出发</p>
-                  <p>30 深化监督体制机制改革 护航深圳燃气高质量发展</p>
-                  <p></p>
-                </div>
-              </div>
-              <div class="swiper-slide" style="width: 800px; height: 500px;">
-                <a class="title-img-box hvr-curl-bottom-right">
-                  <img
-                    src="https://guanwang-oss.oss-cn-shenzhen.aliyuncs.com/2019/09/09/218B4A8A38954BF6BA017CA4E1E5D32E.jpg"
-                    onclick="openDetail(view.periodical[3])"
-                    class="title-img"
-                  />
-                </a>
-                <div class="text-box">
-                  <span onclick="openDetail(view.periodical[3])" class="title">第72期：不忘初心 牢记使命</span>
-                  <p>
-                    <span class="title2">刊首 FORWARD</span>
-                    <span>&nbsp;</span>
-                    <span class="title2">博览 NEWS</span>
-                  </p>
-                  <p>04 全球第一家天然气制汽油厂在土库曼斯坦投产（等）</p>
-                  <p>06 董事长李真带队拜访坪山区陶永欣书记（等）</p>
-                  <p>08 深圳燃气召开2019半年经济工作会议</p>
-                  <p>10 你好！首船LNG！</p>
-                  <p>
-                    <span>18 深圳燃气2019年半年度报告业绩点评摘选</span>
-                  </p>
-                  <p class="last-p">20 功崇惟志 业广惟勤 记城中村改造的一天</p>
-                  <br />
-                  <span class="title2">专题 TOPIC</span>
-                  <p>24 不忘初心 牢记使命 坚定信心 攻坚克难</p>
-                  <p>27 深圳燃气“不忘初心 牢记使命”主题教育集中学习研讨中党委领导发言节选</p>
-                  <p>32 多措并举同谋划 紧抓落实促实效</p>
-                  <p></p>
-                </div>
-              </div>
-              <div class="swiper-slide" style="width: 800px; height: 500px;">
-                <a class="title-img-box hvr-curl-bottom-right">
-                  <img
-                    src="https://guanwang-oss.oss-cn-shenzhen.aliyuncs.com/2019/07/18/3DDA535EE49A48FFA9A7403C448D6AF8.png"
-                    onclick="openDetail(view.periodical[4])"
-                    class="title-img"
-                  />
-                </a>
-                <div class="text-box">
-                  <span onclick="openDetail(view.periodical[4])" class="title">第71期：改革奋进正当时</span>
-                  <p>
-                    <span class="title2">刊首 FORWARD</span>
-                    <span class="title2">博览 NEWS</span>
-                  </p>
-                  <p>04 中俄东线天然气管道过境段：6月末实现全部贯通（等）</p>
-                  <p>06 深圳燃气组织召开深圳市天然气交易中心方案研究专家评审会（等）</p>
-                  <p>08 深圳发布全国首份优化用气营商环境白皮书</p>
-                  <p>12 深圳燃气2018年年度报告以及2019年一季报业绩点评摘选</p>
-                  <p class="last-p">14 攻坚决战 城中村改造再加速——专访城中村改造办公室张坚主任</p>
-                  <span class="title2">党建 PARTY BUILDING</span>
-                  <p class="last-p">16 党建进班组，党员上一线书记项目深化实施方案</p>
-                  <span class="title2">专题 TOPIC</span>
-                  <p>22 改革改了什么？</p>
-                  <p>26 坚持贯彻新发展理念引领深圳燃气高质量发展</p>
-                  <p>28 做深做实做细改革工作，确保圆满完成各项经营工作目标</p>
-                  <p></p>
-                </div>
-              </div>
-              <div class="swiper-slide swiper-slide-duplicate" style="width: 800px; height: 500px;">
-                <a class="title-img-box hvr-curl-bottom-right">
-                  <img
-                    src="https://guanwang-oss.oss-cn-shenzhen.aliyuncs.com/2020/03/17/880C4267300F48A180754B0DC946456A.jpg"
-                    onclick="openDetail(view.periodical[0])"
-                    class="title-img"
-                  />
-                </a>
-                <div class="text-box">
-                  <span onclick="openDetail(view.periodical[0])" class="title">第75期：2020深燃再出发</span>
-                  <p></p>
-                  <p>
-                    <span class="title2">
-                      新春贺词
-                      <span>FORWARD</span>
-                    </span>
-                    <span>&nbsp;</span>
-                    <span class="title2">
-                      博览
-                      <span>NEWS</span>
-                    </span>
-                    <span></span>
-                  </p>
-                  <p>
-                    <span>04</span> 全球LNG供应过剩将持续到年中（等）
-                    <span></span>
-                  </p>
-                  <p>
-                    <span>06 深燃党委召开巡察整改工作部署会</span>（等）
-                    <span></span>
-                  </p>
-                  <p>
-                    <span>08</span> 深圳燃气召开2019年度经济工作会等系列会议
-                    <span></span>
-                  </p>
-                  <p>
-                    <span>16</span> 2019中国资本市场十大事件
-                    <span></span>
-                  </p>
-                  <p class="last-p">
-                    <span>18 2019城中村改造大数据</span>
-                    <span></span>
-                  </p>
-                  <p>
-                    <span class="title2">
-                      党建
-                      <span>PARTY BUILDING</span>
-                    </span>
-                    <span></span>
-                  </p>
-                  <p>
-                    <span class="title2">
-                      <span>20 习近平出席国企党建工作会议：使国企成为党和国家最可信赖的依靠力量</span>
-                    </span>
-                    <span></span>
-                  </p>
-                  <p>
-                    <span class="title2">
-                      专题
-                      <span>TOPIC</span>
-                    </span>
-                    <span></span>
-                  </p>
-                  <p class="MsoNormal">
-                    <span>&nbsp;</span>
-                  </p>
-                  <p></p>
-                </div>
-              </div>-->
-            </div>
-            <i onclick="journalSwiper.swipePrev()" class="iconfont iconxiangzuo"></i>
-            <i onclick="journalSwiper.swipeNext()" class="iconfont iconxiangyou"></i>
-            <div class="pagination">
-              <span class="swiper-pagination-switch swiper-visible-switch swiper-active-switch"></span>
-              <span class="swiper-pagination-switch"></span>
-              <span class="swiper-pagination-switch"></span>
-              <span class="swiper-pagination-switch"></span>
-              <span class="swiper-pagination-switch"></span>
+
+            <div class="con con_3" style="display: none;">
+              <ul class="link_con_list">
+                <li class="item_1">
+                  <router-link to="/fw8">
+                    <div class="script">
+                      <h4 class="tit">服务8</h4>
+                      <p class="txt">春</p>
+                      <i class="icon icon_arrow_r"></i>
+                    </div>
+                  </router-link>
+                </li>
+                <li class="item_2">
+                  <router-link to="/fw9">
+                    <div class="script">
+                      <h4 class="tit">服务9</h4>
+                      <p class="txt">夏</p>
+                      <i class="icon icon_arrow_r"></i>
+                    </div>
+                  </router-link>
+                </li>
+                <li class="item_3">
+                  <router-link to="/fw10">
+                    <div class="script">
+                      <h4 class="tit">服务10</h4>
+                      <p class="txt">秋</p>
+                      <i class="icon icon_arrow_r"></i>
+                    </div>
+                  </router-link>
+                </li>
+                <li class="item_4">
+                  <router-link to="/fw11">
+                    <div class="script">
+                      <h4 class="tit">服务11</h4>
+                      <p class="txt">深圳没有冬天~</p>
+                      <i class="icon icon_arrow_r"></i>
+                    </div>
+                  </router-link>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
+      <!-- 业务模块结束 -->
+      <!--新闻模块开始 -->
+      <div class="resp_area">
+        <div class="resp_details">
+          <h3 class="tit">
+            最新
+            <br />新闻资讯
+          </h3>
+          <p class="txt">聚合微小善行，以科技让世界更美好</p>
+          <router-link to="/news">
+            <i class="icon icon_arrow_r"></i>
+          </router-link>
+        </div>
+        <div class="public_welfare">
+          <div class="slide_area">
+            <ul class="slide_list">
+              <li class>
+                <router-link to="/hyxw">
+                  <h4 class="tit">全球战疫 一起行动</h4>
+                  <p class="txt">在新冠肺炎疫情之战中，腾讯秉持科技向善，以互联网科技的力量，通过我们的技术和产品为全球战疫提供支持。</p>
+                  <div class="img img0"></div>
+                  <span class="shadow_bg"></span>
+                </router-link>
+              </li>
+              <li class>
+                <h4 class="tit">99 公益日</h4>
+                <p class="txt">每年一度于9月举行的全民公益活动，透过网上平台将大众在活动期间网上作出的捐款进行匹配。</p>
+                <div class="img img1"></div>
+                <span class="shadow_bg"></span>
+              </li>
+              <li class="active">
+                <h4 class="tit">长城保护项目</h4>
+                <p class="txt">公益慈善基金会与中国文物保护基金会共同合作，吸引公众关注和参与长城保护的文化遗产类公益项目。</p>
+                <div class="img img2"></div>
+                <span class="shadow_bg"></span>
+              </li>
+              <li class>
+                <h4 class="tit">金盛为城</h4>
+                <p class="txt">根据城市需求供暖量场景，打造云数据平台的“城市服务中心”。</p>
+                <div class="img img3"></div>
+                <span class="shadow_bg"></span>
+              </li>
+            </ul>
+            <i class="icon_arrow icon_arrow_l"></i>
+            <i class="icon_arrow icon_arrow_r"></i>
+          </div>
+          <i class="hook_tri"></i>
+        </div>
+      </div>
+      <!--新闻模块结束 -->
+
+      <!--智慧供热模块开始 -->
+      <div class="develop_area">
+        <div class="develop_con">
+          <div class="develop_details">
+            <h3 class="tit">
+              智慧
+              <br />供热与供暖
+            </h3>
+            <p class="txt">可持续发展集中供热</p>
+            <router-link to="/zhgr">
+              <i class="icon icon_arrow_r"></i>
+            </router-link>
+          </div>
+        </div>
+        <div class="slide_area dev_bg">
+          <ul class="slide_list">
+            <li class="li1"></li>
+            <li class="li2"></li>
+            <li class="li3 active"></li>
+          </ul>
+          <div class="slide-tab">
+            <div class="li"></div>
+            <div class="li"></div>
+            <div class="li active"></div>
+          </div>
+        </div>
+      </div>
+      <!--智慧供热模块结束 -->
     </div>
   </div>
 </template>
 
 <script>
+ import $ from "jquery";
 export default {
-	mounted() {
-	  this.$parent.$parent.dh();
-	}
+  mounted() {
+    this.hdmk();
+    this.ygdhz();
+    this.rcfz();
+  },
+  methods: {
+    hdmk() {
+      $(".link_area .link_hook .link_tab .tab_list li").on(
+        "mouseenter",
+        function() {
+          if (!$(this).hasClass("current")) {
+            $(".link_area .link_hook .tab_list li").removeClass("current");
+            $(this).addClass("current");
+            $(".link_area .link_hook .link_content .con").hide();
+            $(
+              ".link_area .link_hook .link_content .con_" + $(this).data("num")
+            ).fadeIn();
+          }
+        }
+      );
+    },
+    ygdhz() {
+      var resp_area_banner_time;
+      var resp_area_index = 0;
+      var resp_area_width = $(".resp_area .slide_area").width();
+      var resp_area_len = $(".resp_area .slide_list li").length;
+      function resp_area_banner(l) {
+        if (l) {
+          resp_area_index--;
+          resp_area_index =
+            resp_area_index < 0 ? resp_area_len - 1 : resp_area_index;
+        } else {
+          resp_area_index++;
+          resp_area_index =
+            resp_area_index < resp_area_len ? resp_area_index : 0;
+        }
+
+        $(".resp_area .slide_list li").removeClass("active");
+        $(".resp_area .slide_list li")
+          .eq(resp_area_index)
+          .addClass("active");
+      }
+      var resp_area_banner_time = setInterval(resp_area_banner, 4000);
+
+      $(".resp_area .slide_area .icon_arrow").on("click", function() {
+        clearInterval(resp_area_banner_time);
+        if ($(this).hasClass("icon_arrow_l")) {
+          resp_area_banner(1);
+        } else {
+          resp_area_banner();
+        }
+        resp_area_banner_time = setInterval(resp_area_banner, 4000);
+      });
+    },
+    rcfz() {
+      var develop_area_banner_time;
+      var develop_area_index = 0;
+      var develop_area_width = $(".develop_area .slide_area").width();
+      var develop_area_len = $(".develop_area .slide_list li").length;
+      function develop_area_banner(l) {
+        if (l != undefined) {
+          develop_area_index = l;
+        } else {
+          develop_area_index++;
+        }
+        develop_area_index =
+          develop_area_index < develop_area_len ? develop_area_index : 0;
+        $(".develop_area .slide_list li").removeClass("active");
+        $(".develop_area .slide_list li")
+          .eq(develop_area_index)
+          .addClass("active");
+        $(".develop_area .slide-tab .li").removeClass("active");
+        $(".develop_area .slide-tab .li")
+          .eq(develop_area_index)
+          .addClass("active");
+      }
+      var develop_area_banner_time = setInterval(develop_area_banner, 5000);
+
+      $(".develop_area .slide-tab .li").on("click", function() {
+        clearInterval(develop_area_banner_time);
+        develop_area_banner($(this).index());
+        develop_area_banner_time = setInterval(develop_area_banner, 4000);
+      });
+
+      $(".back_to_top").on("click", function() {
+        $("html , body").animate({ scrollTop: 0 }, "slow");
+      });
+    }
+  }
 };
 </script>
 
@@ -644,11 +396,9 @@ export default {
 #main {
   min-width: 320px;
   width: 100%;
-  
-  // height: 937px;
-  // 轮播图大盒子
+  // 视频模块开始
   #main-swiper {
-  // top: -50px;
+    // top: -50px;
     position: relative;
     min-height: 400px;
     .swiper-wrapper {
@@ -663,7 +413,7 @@ export default {
         background-size: 100% 100%;
         position: relative;
         width: 100%;
-        height: 888px;
+        height: 780px;
         .loop-img {
           width: 100%;
           height: 100%;
@@ -671,663 +421,724 @@ export default {
         }
       }
     }
-    .pagination {
-      position: absolute;
-      left: 0;
-      text-align: center;
-      bottom: 18px;
-      width: 100%;
-      .swiper-pagination-switch {
-        display: inline-block;
-        width: 8px;
-        height: 8px;
-        border-radius: 50%;
-        background: rgba(255, 255, 255, 0.3);
-        margin: 0 3px;
-        cursor: pointer;
-      }
-    }
-    .jiantou {
-      width: 50px;
-      height: 50px;
-      // left: auto;
-      // cursor: pointer;
-      position: absolute;
-      top: 50%;
-    }
-    .zuo-img {
-      left: 40px;
-    }
-    .you-img {
-      right: 40px;
-    }
   }
-  .swiper-container {
-    margin: 0 auto;
-    position: relative;
-    overflow: hidden;
-    direction: ltr;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    z-index: 1;
-  }
-  .bt-box-main {
-    position: absolute;
-    bottom: 65px;
-    z-index: 70;
-    position: absolute;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
+  // 视频模块结束
 
-    .am-animation-slide-bottom {
-      -webkit-animation-name: am-slide-bottom;
-      animation-name: am-slide-bottom;
-      .item {
-        cursor: pointer;
-        margin-top: 20px;
-        margin-right: 134px;
-        color: pink;
-        z-index: 999;
-        font-size: 14px;
-        text-decoration: none;
-        .img-box {
-          position: relative;
-          vertical-align: middle;
-          margin-right: 10px;
-          background-size: 100% 100%;
-          cursor: pointer;
-          border: 0;
-          height: 50px;
-          width: 50px;
-          border-radius: 50%;
-          img {
-            position: absolute;
-            width: 18px;
-            height: auto;
-            display: none;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            -webkit-transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-            border: 0;
-            vertical-align: middle;
-          }
-        }
-        a {
-          background: 0 0;
-          text-decoration: none;
-          -webkit-tap-highlight-color: transparent;
-          color: pink;
-        }
-        .t {
-          white-space: nowrap;
-          display: inline-block;
-          text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-          max-width: 5em;
-        }
-      }
-    }
-    [class*="am-animation-"] {
-      -webkit-animation-duration: 0.5s;
-      animation-duration: 0.5s;
-      -webkit-animation-timing-function: ease-out;
-      animation-timing-function: ease-out;
-      -webkit-animation-fill-mode: both;
-      animation-fill-mode: both;
-    }
-  }
-  .app-row {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1200px;
-    max-width: 1200px;
-    min-width: 320px;
-  }
-  // 轮播图盒子结束
-  // 头条资讯
-  .today-bg-box {
-    padding: 106px 0 120px 0;
-  }
-  .bg-box {
+  // 企业宣言模块开始
+  .descript_area {
+    display: block;
     width: 100%;
-    overflow: hidden;
-    // background-color: pink;
-    background-size: 100% 100%;
-    position: relative;
-    #today-sr-swiper {
-      height: 498px;
-      position: relative;
-      .t0 {
-        font-size: 38px;
-        color: #0866b0;
-        margin-bottom: 20px;
-        font-weight: 700;
-        display: none;
-      }
-      .swiper-wrapper {
-        position: relative;
-        box-sizing: content-box;
-        width: 1200px;
-        // height: ;
-        // transition-property: transform, left, top, -webkit-transform;
-        // transition-duration: 0s;
-        // transform: translate3d(0, 0, 0);
-        // transition-timing-function: ease;
-        .swiper-slide {
-          width: 1200px;
-          height: 498px;
-          position: relative;
-          box-sizing: border-box;
-          float: left;
-          .td-img {
-            // -webkit-transition: all 0.6s;
-            transition: all 0.6s;
-            background: #ebebeb;
-            height: 82%;
-            padding-left: 1px;
-            float: left;
-            // -o-object-fit: cover;
-            object-fit: cover;
-            // -o-object-position: 50% 50%;
-            object-position: 50% 50%;
-            width: 50%;
-          }
-          .text-box {
-            opacity: 1;
-            -webkit-transition: all 0.45s;
-            transition: all 0.45s;
-            float: right;
-            width: 43%;
-            height: 425px;
-            overflow: hidden;
-            display: inline-block;
-            .t1 {
-              font-size: 38px;
-              color: #0866b0;
-              margin-bottom: 20px;
-              font-weight: 700;
-            }
-            .t2 {
-              margin-bottom: 20px;
-              font-size: 28px;
-              color: #333;
-              letter-spacing: 0;
-              cursor: pointer;
-              -webkit-transition: all 0.45s;
-              transition: all 0.45s;
-            }
-            .t3 {
-              margin-bottom: 15px;
-              font-size: 18px;
-              color: #cfcfcf;
-              letter-spacing: 0;
-            }
-            .t4 {
-              white-space: normal;
-              word-break: break-all;
-              font-size: 16px;
-              color: #000;
-              letter-spacing: 0;
-              text-align: justify;
-              position: relative;
-              height: 216px;
-              overflow: hidden;
-              line-height: 36px;
-              display: -webkit-box;
-              -webkit-box-orient: vertical;
-              -webkit-line-clamp: 6;
-            }
-          }
-        }
-      }
-      .pagination {
-        position: absolute;
-        left: 0;
-        -webkit-transition: all 0.45s;
-        transition: all 0.45s;
-        bottom: 20px;
-        .swiper-active-switch {
-          background: #1a6dd3;
-        }
-        .swiper-pagination-switch {
-          display: inline-block;
-          width: 40px;
-          height: 3px;
-          border-radius: 0;
-          vertical-align: middle;
-          // background: #d2d2d2;
-          margin: 0 5px;
-          cursor: pointer;
-        }
-      }
-      .view-more {
-        cursor: pointer;
-        bottom: 9px;
-        right: 0;
-        position: absolute;
-        overflow: hidden;
+    opacity: 0.5;
+    .txt {
+      font-size: 20px;
+      text-align: center;
+      color: #5f6464;
+      font-weight: bold;
+      line-height: 54px;
+      padding: 105px 0 74px;
+      .pc {
         display: block;
-        width: 150px;
-        text-align: center;
-        line-height: 40px;
-        height: 40px;
-        border: none;
-        background: #73b516;
-        color: #fff;
-        border-radius: 5px;
-      }
-    }
-    #today-sr-swiper {
-      height: 498px;
-      position: relative;
-    }
-    .swiper-container {
-      margin: 0 auto;
-      position: relative;
-      overflow: hidden;
-      direction: ltr;
-      -webkit-backface-visibility: hidden;
-      backface-visibility: hidden;
-      z-index: 1;
-    }
-    .app-row {
-      margin-left: auto;
-      margin-right: auto;
-      width: 1200px;
-      max-width: 1200px;
-      min-width: 320px;
-    }
-  }
-  // 三大模块
-  .news-bg-box {
-    .news-box {
-      margin: auto;
-      .item {
-        -webkit-transition: all 0.45s;
-        transition: all 0.45s;
-        background-size: 100% 100%;
-        overflow: hidden;
-        height: auto;
-        float: left;
-        width: 33%;
-        position: relative;
-        margin-left: 0.5%;
-        &:nth-child(1) {
-          margin-left: 0;
-        }
-        img {
-          cursor: pointer;
-          // -webkit-transition: 0.45s;
-          // transition: 0.45s;
-          width: 100%;
-          height: auto;
-        }
-        .text-box {
-          bottom: 0;
-          // -webkit-transition: 0.6s;
-          // transition: 0.6s;
-          width: 100%;
-          height: 100px;
-          // -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-          position: absolute;
-          overflow: hidden;
-          // background-image: url('../../assets/squre.png');
-          background-size: 100% 100%;
-          .title {
-            font-size: 28px;
-            color: #fff;
-            -webkit-transition: 0.6s;
-            transition: 0.6s;
-            padding-left: 40px;
-            line-height: 100px;
-            display: inline-block;
-            letter-spacing: 1.4px;
-          }
-          p {
-            padding-left: 40px;
-            padding-right: 30px;
-            margin-bottom: 16px;
-            font-size: 20px;
-            color: #fff;
-            cursor: pointer;
-            -webkit-transition: all 0.45s;
-            transition: all 0.45s;
-            span {
-              display: inline-block;
-              width: 80%;
-              white-space: nowrap;
-              text-overflow: ellipsis;
-              overflow: hidden;
-            }
-          }
-        }
       }
     }
   }
-  // 三大模块结束
-  // 两大模块
-  .summary-box-out {
-    overflow: hidden;
-    background-image: url("../../assets/yancong.jpg");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    height: 90vh;
-    min-height: 400px;
-    position: relative;
-    .summary-box {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-      .item {
-        float: left;
-        border-radius: 8px;
-        width: 327px;
-        -webkit-box-sizing: border-box;
-        box-sizing: border-box;
-        background: #fff;
-        margin-left: 40px;
-        padding: 30px 30px;
-        -webkit-box-shadow: 0 2px 25px 0 #cbe6f3;
-        box-shadow: 0 2px 25px 0 #cbe6f3;
-        overflow: hidden;
-        &:first-child {
-          margin-left: 0;
-        }
-        .t1 {
-          font-size: 16px;
-          color: rgba(0, 0, 0, 0.35);
-          letter-spacing: 0.9px;
-        }
-        .t2 {
-          margin-bottom: 25px;
-          margin-top: 15px;
-          font-weight: 700;
-          -webkit-transition: 0.4s;
-          transition: 0.4s;
-          cursor: pointer;
-          font-size: 28px;
-          letter-spacing: 1.4px;
-        }
-        .img-box {
+  // 企业宣言模块结束
+  // 我们模块开始
+  .details_area {
+    display: block;
+    width: 100%;
+    margin-bottom: 84px;
+    .details_con {
+      display: block;
+      width: 1240px;
+      margin: 0px auto;
+      height: 250px;
+      .detail_list {
+        display: block;
+        height: 250px;
+        li {
+          display: inline-block;
+          float: left;
+          height: 100%;
+          width: 400px;
+          text-align: center;
+          margin-right: 10px;
+          position: relative;
           overflow: hidden;
-          width: 100%;
-          cursor: pointer;
-          -o-object-fit: cover;
-          object-fit: cover;
-          -webkit-transition: 0.4s;
-          transition: 0.4s;
-          .contain {
-            height: 160px;
+          .sdmk {
+            display: block;
+            height: 100%;
             width: 100%;
-            overflow: hidden;
-            .img1 {
+            &::after {
+              display: block;
+              content: "";
               height: 100%;
               width: 100%;
-              -webkit-transition: all 0.4s;
-              transition: all 0.4s;
+              background: rgba(0, 82, 217, 0.7);
+              position: absolute;
+              left: 0px;
+              top: 0px;
+              z-index: 2;
+              opacity: 0;
+              transition: opacity 0.3s ease-out;
             }
-          }
-          .t3 {
-            cursor: pointer;
-            margin-top: 20px;
-            margin-bottom: 10px;
-            font-size: 16px;
-            height: 52px;
-            overflow: hidden;
-            color: #424242;
-            line-height: 26px;
-            display: -webkit-box;
-            text-overflow: ellipsis;
-            -webkit-box-orient: vertical;
-            -webkit-line-clamp: 2;
-            overflow: hidden;
-          }
-          .t4 {
-            font-size: 14px;
-            color: #9b9b9b;
-          }
-        }
-        .t5 {
-          color: #1a6dd3;
-          -webkit-transition: 0.4s;
-          transition: 0.4s;
-          cursor: pointer;
-          font-size: 18px;
-          margin-top: 40px;
-          .img2 {
-            height: 15px;
-            width: 28px;
-          }
-        }
-      }
-    }
-    .app-row {
-      margin-left: auto;
-      margin-right: auto;
-      width: 1200px;
-      max-width: 1200px;
-      min-width: 320px;
-    }
-  }
-  // 两大模块结束
-  // 业务地图
-  .domain-box {
-    position: relative;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    height: 600px;
-    // background-image: url('../../assets/yancong.jpg');
-    // background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-image: linear-gradient(45deg, #008efe 0, #2da68f 100%);
-    background-size: 100% 100%;
-    .content {
-      height: 370px;
-      position: absolute;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-      .map {
-        -webkit-transition: all 0.45s;
-        transition: all 0.45s;
-        height: 100%;
-        width: auto;
-        position: absolute;
-        right: -10%;
-      }
-      .t1 {
-        opacity: 1;
-        color: #fff;
-        font-size: 44px;
-        font-weight: 700;
-        letter-spacing: 2px;
-        // margin-bottom: 100px;
-      }
-      .t2 {
-        // -webkit-transition: all 0.45s;
-        transition: all 0.45s;
-        display: block;
-        color: #fff;
-        height: 45px;
-        width: 130px;
-        font-size: 16px;
-        background: #73b516;
-        border-radius: 7px;
-        margin-top: 80px;
-        margin-bottom: 70px;
-      }
-      .item {
-        // -webkit-transition: all 0.45s;
-        // transition: all 0.45s;
-        float: left;
-        margin-right: 8%;
-        .t3 {
-          font-size: 53px;
-          opacity: 0.95;
-          color: #fff;
-          font-family: dinbold;
-          font-weight: 700;
-          letter-spacing: 2px;
-          display: block;
-        }
-        .t4 {
-          font-size: 16px;
-          opacity: 0.95;
-          color: #fff;
-          letter-spacing: 2px;
-        }
-      }
-    }
-    .app-row {
-      margin-left: auto;
-      margin-right: auto;
-      width: 1200px;
-      max-width: 1200px;
-      min-width: 320px;
-    }
-  }
-  // 业务地图结束
-  // 期刊
-  .journal-box {
-    background-image: url("../../assets/b2.jpg");
-    background-size: 100% 100%;
-    background-position: 0 80px;
-    background-repeat: no-repeat;
-    height: 700px;
-    // #journal-swiper {
-    // }
-    .swiper-container {
-      // background-color: pink;
-      height: 100%;
-      margin: 0 auto;
-      position: relative;
-      overflow: hidden;
-      direction: ltr;
-      -webkit-backface-visibility: hidden;
-      backface-visibility: hidden;
-      z-index: 1;
-    }
-    .app-row {
-      margin-left: auto;
-      margin-right: auto;
-      width: 1200px;
-      max-width: 1200px;
-      min-width: 320px;
-      .swiper-wrapper {
-        width: 100%;
-        position: relative;
-        box-sizing: content-box;
-        .swiper-slide {
-          width: 100%;
-          position: relative;
-          float: left;
-          box-sizing: content-box;
-          // -webkit-box-sizing: content-box;
-          .title-img-box {
-            background: 0 0;
-            display: inline-block;
-            width: 36%;
-            .title-img {
-              cursor: pointer;
-              // opacity: 1;
-              width: 100%;
-              height: auto;
-              padding: 8px;
-              // -webkit-box-sizing: border-box;
-              box-sizing: border-box;
-              background: rgba(212, 215, 224, 0.8);
-              right: 90px;
-              // opacity: 0;
-              // -webkit-transition: all 0.6s;
-              transition: all 0.6s;
-            }
-          }
-          .text-box {
-            opacity: 1;
-            // -webkit-transition: all 0.6s;
-            transition: all 0.6s;
-            width: 49%;
-            float: right;
-            .title {
-              cursor: pointer;
-              width: 100%;
-              overflow: hidden;
-              text-overflow: ellipsis;
-              white-space: nowrap;
-              font-size: 36px;
-              color: #fff;
-              display: block;
-              margin-top: 135px;
-              letter-spacing: 1.9px;
-              margin-bottom: 20px;
-              // -webkit-transition: all .45s;
-              transition: all 0.45s;
+            &:hover::after {
+              opacity: 1;
+              transform: scale(1);
             }
             p {
+              display: block;
+              float: left;
+              font-size: 30px;
+              height: 40px;
+              text-align: center;
+              position: absolute;
+              left: 50%;
+              top: 50%;
+              margin-top: -20px;
+              z-index: 3;
               color: #fff;
-              font-size: 14px;
-              line-height: 22px;
-              .title2 {
+              border-bottom: 1px solid rgba(255, 255, 255, 0);
+              transform: translate(-50%, 0);
+              padding-bottom: 3px;
+              transition: border-bottom 0.3s ease-out;
+              font-family: "TencentSansw7";
+              padding-bottom: 5px;
+              -webkit-transition: width 1s linear;
+            }
+            img {
+              display: block;
+              height: 100%;
+              width: 100%;
+              position: absolute;
+              left: 0px;
+              top: 0px;
+              z-index: 1;
+              transform: scale(1);
+              transition: transform 0.3s ease-out;
+            }
+          }
+        }
+        .current {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  // 我们模块结束
+  // 业务模块开始
+  .link_area {
+    display: block;
+    width: 100%;
+    height: 780px;
+    background: #1b1f25;
+    margin-bottom: 84px;
+    .link_hook {
+      display: block;
+      width: 1440px;
+      height: 780px;
+      margin: 0px auto;
+      .link_tab {
+        display: block;
+        width: 36%;
+        height: 100%;
+        float: left;
+        .tab_list {
+          display: block;
+          height: 100%;
+          li {
+            display: block;
+            height: 33.3%;
+            opacity: 0.4;
+            position: relative;
+            .block-link {
+              display: block;
+              height: 100%;
+              width: 100%;
+              .tit {
+                margin-left: -28%;
                 display: block;
-                font-size: 18px;
+                font-size: 30px;
                 color: #fff;
-                margin-bottom: 30px;
-                line-height: 22px;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                margin-top: -4.9%;
+                transition: margin-left 0.3s ease-out;
+                font-family: "TencentSansw7";
+                right: 32px;
+                &::after {
+                  display: block;
+                  content: "";
+                  height: 70px;
+                  width: 6px;
+                  background: #1e52d8;
+                  position: absolute;
+                  left: 50%;
+                  margin-left: -62%;
+                  top: 18%;
+                  opacity: 0;
+                  transform: translate(-20px, 0px);
+                  transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+                }
+                &:hover::after {
+                  opacity: 1;
+                  transform: translate(0px, 0px);
+                }
+              }
+              .txt {
+                display: block;
+                font-size: 16px;
+                color: #fff;
+                position: absolute;
+                left: 50%;
+                margin-left: -28%;
+                top: 50%;
+                margin-top: 5.8%;
+                transition: margin-left 0.3s ease-out;
+                font-family: "TencentSansw3";
+                right: 30px;
+              }
+              .icon {
+                display: block;
+                height: 16px;
+                width: 54px;
+                background: url("../../assets/icon_arrow_r.png") no-repeat 0 0;
+                position: absolute;
+                left: 50%;
+                opacity: 1;
+                margin-left: -27.5%;
+                top: 50%;
+                margin-top: 14.8%;
+                transition: margin-left 0.3s ease-out, opacity 0.3s ease-out;
+                background-size: 100% 100%;
               }
             }
-            .last-p {
-              margin-bottom: 20px;
+          }
+          .list_item_2 {
+            .icon {
+              margin-top: 9%;
+            }
+            .tit {
+              margin-top: -10.9%;
+            }
+            .txt {
+              margin-top: -0.2%;
             }
           }
-          .hvr-curl-bottom-right {
-            display: inline-block;
-            vertical-align: middle;
-            // -webkit-transform: perspective(1px) translateZ(0);
-            // transform: perspective(1px) translateZ(0);
-            // -webkit-box-shadow: 0 0 1px transparent;
-            // box-shadow: 0 0 1px transparent;
-            position: relative;
+          .list_item_3 {
+            .icon {
+              margin-top: 3.8%;
+            }
+            .tit {
+              margin-top: -16.3%;
+            }
+            .txt {
+              margin-top: -6.2%;
+            }
           }
-          a {
-            -webkit-tap-highlight-color: transparent;
-            color: #08c;
+          .current {
+            opacity: 1;
+            .tit {
+              margin-left: -28%;
+              &::after {
+                opacity: 1;
+                transform: translate(0px, 0px);
+              }
+            }
+            .txt {
+              margin-left: -28%;
+            }
+            .icon {
+              opacity: 1;
+              margin-left: -27.5%;
+            }
           }
+        }
+      }
+      .link_content {
+        display: block;
+        width: 64%;
+        height: 780px;
+        margin-left: 0;
+        overflow: hidden;
+        .con {
+          display: none;
+          width: 100%;
+          height: 100%;
+          .link_con_list {
+            display: block;
+            width: 100%;
+            height: 100%;
+            li {
+              display: block;
+              width: 50%;
+              float: left;
+              height: 50%;
+              background-size: cover;
+              overflow: hidden;
+              a {
+                display: block;
+                width: 100%;
+                height: 100%;
+                position: relative;
+                &:hover .script .tit {
+                  margin-top: 59px;
+                }
+                &:hover .script .txt {
+                  opacity: 1;
+                  transform: translate(0px, 0);
+                }
+                &:hover .script .icon {
+                  animation: a_arrow_r 0.2s linear forwards;
+                  opacity: 1;
+                }
+                @keyframes a_arrow_r {
+                  0% {
+                    opacity: 0;
+                    right: 71px;
+                  }
+                  100% {
+                    opacity: 1;
+                    right: 51px;
+                  }
+                }
+                .script {
+                  display: block;
+                  width: 100%;
+                  height: 50%;
+                  position: absolute;
+                  left: 0px;
+                  bottom: 0px;
+                  background: -webkit-linear-gradient(
+                    bottom,
+                    rgba(0, 0, 0, 0.4),
+                    rgba(0, 0, 0, 0)
+                  );
+                  .tit {
+                    display: block;
+                    margin-left: 43px;
+                    margin-top: 119px;
+                    font-size: 20px;
+                    color: #fff;
+                    transition: margin-top 0.3s ease-out;
+                    font-family: "TencentSansw7";
+                  }
+                  .txt {
+                    display: block;
+                    margin-left: 43px;
+                    margin-top: 9px;
+                    line-height: 1.8;
+                    font-size: 14px;
+                    color: #fff;
+                    opacity: 0;
+                    transform: translate(0px, 15px);
+                    transition: opacity 0.3s ease-out;
+                    font-family: "TencentSansw3";
+                    margin-right: 43px;
+                  }
+                  .icon {
+                    display: block;
+                    height: 14px;
+                    width: 31px;
+                    background: url("../../assets/icon_arrow_r_s.png") no-repeat
+                      0 0;
+                    position: absolute;
+                    right: 71px;
+                    top: 71px;
+                    opacity: 0;
+                    transition: all 0.3s ease-out;
+                    background-size: 100% 100%;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .con_1 {
+          display: block;
+
+          .item_1 {
+            background-image: url("../../assets/index_link_1_1.jpg");
+          }
+          .item_2 {
+            background-image: url("../../assets/index_link_1_2.jpg");
+          }
+          .item_3 {
+            background-image: url("../../assets/index_link_1_3.jpg");
+          }
+          .item_4 {
+            background-image: url("../../assets/index_link_1_4.jpg");
+          }
+        }
+        .con_2 {
+          // display: block;
+          .link_con_list {
+            .item_1 {
+              background-image: url("../../assets/index_link_2_1.jpg");
+            }
+            .item_2 {
+              background-image: url("../../assets/index_link_2_2.jpg");
+            }
+            .item_3 {
+              background-image: url("../../assets/index_link_2_3.jpg");
+              width: 100%;
+            }
+          }
+        }
+        .con_3 {
+          // display: block;
+          .link_con_list {
+            .item_1 {
+              background-image: url("../../assets/index_link_3_1.jpg");
+            }
+            .item_2 {
+              background-image: url("../../assets/index_link_3_2.jpg");
+            }
+            .item_3 {
+              background-image: url("../../assets/index_link_3_3.jpg");
+            }
+            .item_4 {
+              background-image: url("../../assets/index_link_3_4.jpg");
+            }
+          }
+        }
+      }
+    }
+  }
+  // 业务模块结束
+
+  // 新闻模块开始
+  .resp_area {
+    display: block;
+    width: 1280px;
+    height: 620px;
+    margin: 0px auto 84px; /*background:url(../../assets/bg_4.png) no-repeat 0 0; background-size: contain;*/
+    position: relative;
+    .resp_details {
+      display: block;
+      width: 450px;
+      position: absolute;
+      left: 50%;
+      margin-left: 68px;
+      top: 50%;
+      margin-top: -8.3%;
+      .tit {
+        display: block;
+        color: #2a2e2e;
+        width: 450px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        font-size: 36px;
+        margin-bottom: 20px;
+        font-family: "TencentSansw7";
+      }
+
+      .txt {
+        display: block;
+        color: #5f6464;
+        width: 450px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        font-size: 20px;
+        margin-bottom: 40px;
+        font-family: "TencentSansw3";
+      }
+      a {
+        .icon_arrow_r {
+          display: block;
+          width: 38px;
+          height: 16px;
+          background: url("../../assets/icon_arrow_r_dark.png") no-repeat 0 0;
+          margin-left: 3px;
+          background-size: 100% 100%;
         }
       }
     }
 
-    .pagination {
-      span {
-        display: inline-block;
-      }
-      // -webkit-transition: all 0.45s;
-      transition: all 0.45s;
+    .public_welfare {
+      display: block;
+      width: 627px;
+      height: 620px;
       position: absolute;
-      bottom: 60px;
-      .swiper-active-switch {
-        opacity: 1;
-        background: hotpink;
+      left: 0px;
+      top: 0px;
+      .slide_area {
+        display: block;
+        width: 627px;
+        height: 620px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        overflow: hidden;
+        .slide_list {
+          display: block;
+          width: 100%;
+          height: 620px;
+          position: relative;
+          li {
+            width: 627px;
+            height: 620px;
+            color: #fff;
+            position: absolute;
+            opacity: 0;
+            transition: opacity 0.3s linear;
+            -moz-transition: opacity 0.3s linear;
+            -ms-transition: opacity 0.3s linear;
+            -o-transition: opacity 0.3s linear;
+            -webkit-transition: opacity 0.3s linear;
+            left: 0;
+            top: 1;
+            a {
+              display: block;
+              color: #fff;
+              position: absolute;
+              width: 100%;
+              height: 100%;
+            }
+            .tit {
+              display: block;
+              width: 500px;
+              font-size: 24px;
+              position: absolute;
+              left: 53px;
+              bottom: 107px;
+              z-index: 1;
+              font-family: "TencentSansw7";
+            }
+            .txt {
+              display: block;
+              width: 500px;
+              font-size: 16px;
+              position: absolute;
+              left: 52px;
+              bottom: 41px;
+              line-height: 29px;
+              z-index: 1;
+              font-family: "TencentSansw3";
+            }
+            .img {
+              display: block;
+              width: 627px;
+              height: 620px;
+              position: absolute;
+              left: 0px;
+              top: 0px;
+            }
+            .img0 {
+              background: url("../../assets/index_resp_bg0.png") no-repeat
+                center center;
+              background-size: cover;
+            }
+            .img1 {
+              background: url("../../assets/index_resp_bg1.jpg") no-repeat
+                center center;
+              background-size: cover;
+            }
+            .img2 {
+              background: url("../../assets/index_resp_bg2.jpg") no-repeat
+                center center;
+              background-size: cover;
+            }
+            .img3 {
+              background: url("../../assets/index_resp_bg3.jpg") no-repeat
+                center center;
+              background-size: cover;
+            }
+            .shadow_bg {
+              display: block;
+              width: 100%;
+              height: 30%;
+              position: absolute;
+              left: 0px;
+              bottom: 0px;
+              background: -webkit-linear-gradient(
+                bottom,
+                rgba(0, 0, 0, 0.15),
+                rgba(0, 0, 0, 0)
+              );
+              pointer-events: none;
+            }
+          }
+          .active {
+            opacity: 1;
+          }
+        }
+        .icon_arrow {
+          display: block;
+          width: 10px;
+          height: 16px;
+          background: url(../../assets/sli-left-icon.png) no-repeat center;
+          position: absolute;
+          right: 144px;
+          bottom: 116px;
+          margin-top: -30px;
+          z-index: 5;
+          background-size: 10px 16px;
+          padding: 5px;
+          cursor: pointer;
+          display: none\9;
+          opacity: 0;
+          transition: opacity 0.2s linear;
+        }
+        .icon_arrow_r {
+          left: auto;
+          right: 98px;
+          background: url("../../assets/sli-right-icon.png") no-repeat center;
+          background-size: 10px 16px;
+        }
+        &:hover .icon_arrow {
+          display: block;
+          opacity: 1;
+        }
       }
-      .swiper-pagination-switch {
-        width: 40px;
-        height: 3px;
-        opacity: 0.7;
-        background: skyblue;
-        margin-right: 10px;
+      .hook_tri {
+        display: block;
+        width: 43px;
+        height: 620px;
+        background: url("../../assets/i_tri.png") no-repeat 0 0;
+        background-size: contain;
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
       }
     }
   }
-  // 期刊结束
+  // 新闻模块结束
+
+  // 智慧供热模块开始
+
+  .develop_area {
+    display: block;
+    width: 100%;
+    margin: 0px auto;
+    position: relative;
+    .develop_con {
+      width: 1240px;
+      margin: 0 auto;
+      .develop_details {
+        display: block;
+        width: 450px;
+        position: absolute;
+        left: 6.6%;
+        top: 16%;
+        z-index: 1;
+        .tit {
+          display: block;
+          color: #2a2e2e;
+          width: 450px;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+          font-size: 36px;
+          margin-bottom: 20px;
+          font-family: "TencentSansw7";
+        }
+        .txt {
+          display: block;
+          color: #5f6464;
+          width: 450px;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+          font-size: 20px;
+          margin-bottom: 40px;
+          font-family: "TencentSansw3";
+        }
+        a {
+          .icon_arrow_r {
+            display: block;
+            width: 38px;
+            height: 16px;
+            background: url("../../assets/icon_arrow_r_dark.png") no-repeat 0 0;
+            margin-left: 3px;
+            background-size: 100% 100%;
+          }
+        }
+      }
+    }
+    .slide_area {
+      display: block;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      position: relative;
+      .slide_list {
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        height: 1040px;
+        li {
+          display: inline-block;
+          width: 100%;
+          height: 1040px;
+          float: left;
+          overflow: hidden;
+          position: relative;
+          opacity: 0;
+          transition: 0.3s linear;
+          -moz-transition: opacity 0.3s linear;
+          -ms-transition: opacity 0.3s linear;
+          -o-transition: opacity 0.3s linear;
+          -webkit-transition: opacity 0.3s linear;
+          position: absolute;
+          left: 0;
+          top: 0;
+        }
+        .active {
+          opacity: 1;
+        }
+
+        .li1 {
+          background: url("../../assets/index_develop_bg1.jpg") no-repeat top;
+          background-size: cover;
+        }
+
+        .li2 {
+          background: url("../../assets/index_develop_bg2.jpg") no-repeat top;
+          background-size: cover;
+        }
+
+        .li3 {
+          background: url("../../assets/index_develop_bg3.jpg") no-repeat top;
+          background-size: cover;
+        }
+        @keyframes offset {
+          from {
+            stroke-dashoffset: 0;
+          }
+          to {
+            stroke-dashoffset: 384;
+          }
+        }
+      }
+      .slide-tab {
+        position: absolute;
+        right: 32px;
+        bottom: 24px;
+        .li {
+          float: left;
+          margin-left: 8px;
+          width: 8px;
+          height: 8px;
+          background: #fff;
+          transition: width 0.3s linear;
+          -moz-transition: width 0.3s linear;
+          -ms-transition: width 0.3s linear;
+          -o-transition: width 0.3s linear;
+          -webkit-transition: width 0.3s linear;
+          cursor: pointer;
+        }
+        .active {
+          width: 24px;
+          background: #0052d9;
+        }
+      }
+    }
+  }
+
+  // 智慧供热模块结束
 }
 </style>

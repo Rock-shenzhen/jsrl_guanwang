@@ -35,44 +35,10 @@ export default {
       current: -1,
       navBar: [
         { name: "网站首页", to: "/home" },
+        // 我们
         {
-          name: "企业风采",
-          to: "/#",
-          children: [
-            { name: "企业活动", to: "/enterprise" },
-            { name: "员工生活", to: "/life" }
-          ]
-        },
-        {
-          name: "新闻公告",
-          to: "/#",
-          children: [
-            { name: "企业新闻", to: "/news" },
-            { name: "行业新闻", to: "/hyxw" },
-            { name: "企业公告", to: "/gsgg" },
-            { name: "政策法规", to: "/zcfg" }
-          ]
-        },
-        {
-          name: "社会责任",
-          to: "/#",
-          children: [
-            { name: "社会公益", to: "/shzr" },
-            { name: "科技创新", to: "/kjcx" }
-          ]
-        },
-        {
-          name: "业务平台",
-          to: "/#",
-          children: [
-            { name: "用热报装", to: "/yrbzpt" },
-            { name: "网上营业厅", to: "/yewu" },
-            { name: "网上商城", to: "/wssc" }
-          ]
-        },
-        {
-          name: "关于我们",
-          to: "/#",
+          name: "我们",
+          to: "/we",
           children: [
             { name: "公司简介", to: "/we" },
             { name: "企业文化", to: "/culture" },
@@ -81,14 +47,66 @@ export default {
             { name: "高管团队", to: "/leadership" },
             { name: "金盛人", to: "/member" },
             { name: "团队建设", to: "/tdjs" },
-            { name: "招聘信息", to: "/job" }
+            { name: "人才招聘", to: "/job" }
           ]
         },
+        // 智慧供热
         {
-          name: "在线留言",
-          to: "/zxly",
-          children: [{ name: "投诉建议", to: "/tsjy" }]
+          name: "智慧供热",
+          to: "/zhgr",
+          // children: [{ name: "投诉建议", to: "/tsjy" }]
+        },
+        // 服务
+        {
+          name: "服务",
+          to: "/fw",
+          children: [
+            { name: "网上营业厅", to: "/fw" },
+            { name: "用热报装", to: "/yrbzpt" },
+            { name: "网上商城", to: "/wssc" },
+            { name: "投诉建议", to: "/tsjy" }
+          ]
+        },
+        // 投资者
+        {
+          name: "投资者",
+          to: "/tzz",
+          // children: [{ name: "投诉建议", to: "/tsjy" }]
+        },
+        // 新闻资讯
+        {
+          name: "新闻资讯",
+          to: "/news",
+          children: [
+            { name: "企业新闻", to: "/news" },
+            { name: "行业新闻", to: "/hyxw" },
+            { name: "企业公告", to: "/gsgg" },
+            { name: "政策法规", to: "/zcfg" }
+          ]
+        },
+        // 合作伙伴
+        {
+          name: "合作伙伴",
+          to: "/hzhb",
+          // children: [{ name: "投诉建议", to: "/tsjy" }]
         }
+        // {
+        //   name: "企业风采",
+        //   to: "/enterprise",
+        //   children: [
+        //     { name: "企业活动", to: "/enterprise" },
+        //     { name: "员工生活", to: "/life" }
+        //   ]
+        // },
+
+        // {
+        //   name: "社会责任",
+        //   to: "/shzr",
+        //   children: [
+        //     { name: "社会公益", to: "/shzr" },
+        //     { name: "科技创新", to: "/kjcx" }
+        //   ]
+        // }
       ]
     };
   },
@@ -99,9 +117,9 @@ export default {
     animation() {
       let logo = document.getElementsByClassName("logo")[0];
       let nav = document.getElementsByClassName("nav")[0];
-      if (logo.offsetTop === 0 && nav.offsetLeft === 500) {
+      if (logo.offsetTop === 0 && nav.offsetLeft === 600) {
         logo.style.top = "-100px";
-        nav.style.left = "650px";
+        nav.style.left = "750px";
       }
 
       (function test() {
@@ -109,17 +127,17 @@ export default {
         let weizhi1 = nav.offsetLeft;
 
         weizhi = Math.ceil(weizhi - weizhi / 20);
-        weizhi1 = Math.floor(weizhi1 - (weizhi1 - 500) / 20);
+        weizhi1 = Math.floor(weizhi1 - (weizhi1 - 600) / 20);
 
         logo.style.top = weizhi + "px";
         nav.style.left = weizhi1 + "px";
         if (weizhi > 0) {
           logo.style.top = "0px";
         }
-        if (weizhi1 < 500) {
+        if (weizhi1 < 600) {
           nav.style.left = "500px";
         }
-        if (weizhi < 0 || weizhi1 > 500) {
+        if (weizhi < 0 || weizhi1 > 600) {
           window.requestAnimationFrame(test);
         }
       })();
@@ -141,7 +159,7 @@ export default {
     .logo {
       position: absolute;
       left: 0;
-	  top: -100px;
+      top: -100px;
       // bottom: 0px;
 
       // background-color: #2e3092;
@@ -153,33 +171,47 @@ export default {
     }
     .nav {
       position: absolute;
-      left: 650px;
+      // margin-left: 100px;
       top: 10;
       margin-top: -10px;
       width: 760px;
+      left: 760px;
       // background-color: #0ff;
       > ul {
         height: 100%;
         padding-top: 55px;
         li {
+          // border-radius: 8px;
+          // margin-right: 10px;
           position: relative;
           float: left;
+          width: 80px;
           padding: 0 12px;
           height: 50px;
           line-height: 50px;
           text-align: center;
+          // &:hover{
+          //   border: 3px solid blue;
+
+          // }
           &:hover > a {
-            color: skyblue;
+            color: #bbbbbb;
           }
           .sanjiaoxing {
             position: absolute;
-            bottom: 1px;
-            left: 50%;
-            width: 6px;
-            height: 6px;
-            margin-left: -3px;
-            background: skyblue;
-            transform: rotate(45deg);
+            bottom: 9px;
+            left: 40%;
+            top: 80%;
+
+            transform: rotate(180deg);
+
+            display: block;
+            margin: auto;
+            height: 0;
+            width: 0;
+            border-top: 10px solid #fff;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
           }
           a {
             display: block;
@@ -189,8 +221,9 @@ export default {
           }
           .select {
             position: absolute;
+            border-radius: 6px;
             width: 100%;
-            top: 40px;
+            top: 46px;
             left: 0px;
             z-index: 9999;
             padding: 10px 0;

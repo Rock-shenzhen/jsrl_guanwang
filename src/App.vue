@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-04-24 10:28:58
- * @LastEditTime: 2020-04-29 10:08:14
+ * @LastEditTime: 2020-05-11 09:23:50
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \jsrl_guanwang\jsrl_gw\src\App.vue
@@ -18,7 +18,9 @@
 
 <script>
 import topBar from "./components/topBar";
-import footed from "./components/footed";
+// const topBar = () => import("@/components/topBar");
+const footed = () => import("@/components/footed");
+// import footed from "./components/footed";
 export default {
   name: "App",
   components: {

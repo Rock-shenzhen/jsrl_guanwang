@@ -4,13 +4,12 @@
       <div class="item">
         <img src="../../assets/0417f07f17ca4deb93d3ef262540e341.jpg" alt />
       </div>
-      <div class="banner_area w1280">
-        <span class="s_b_text">
-          <h1>传媒视点</h1>
-          <h4></h4>
-        </span>
-      </div>
-      <div class="wrap_con wrap_con_nobac">
+      <!--<span class="s_b_text">
+        <h1>传媒视点</h1>
+        <h4></h4>
+      </span>-->
+      <div class="banner_area w1280"></div>
+      <!-- <div class="wrap_con wrap_con_nobac">
         <div class="sub_main_con cf pb_fre">
           <div class="sub_menu fnt_14">
             <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -106,25 +105,28 @@
             </div>
           </div>
         </div>
-      </div>
+      </div>-->
     </div>
+    <h2 class="juzhong">新闻资讯板块</h2>
+    <h3 class="jz3">导航栏中每个大模块，都设统一一个背景图，风格可按需求设置</h3>
   </div>
 </template>
 
 <script>
 export default {
-   mounted() {
+  mounted() {
     this.$parent.$parent.dh();
   }
-}
+};
 </script>
 <style>
 .s_banner {
   overflow: hidden;
-  position: relative;
   width: 100%;
-  padding-bottom: 20.9%;
 }
+/* 
+  position: relative;
+  padding-bottom: 20.9%; */
 .s_banner img {
   width: 100%;
 }
@@ -133,7 +135,7 @@ export default {
   position: absolute;
   max-width: 1280px;
   left: 50%;
-  bottom: 10%;
+  bottom: 11%;
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
   -o-transform: translateX(-50%);
@@ -148,13 +150,23 @@ export default {
   line-height: 33px;
   text-align: center;
   float: left;
+  width: 100px;
+  left: 15%;
+
+  /* 
   padding-left: 13px;
-  /* margin-top: 22%; */
-}
-.s_b_text h1,
-.s_b_text h4 {
+ margin-top: 20%; */
   color: #fff;
+  position: relative;
 }
+/*.s_b_text h4 */
+.s_b_text h1 {
+  font-size: 25px;
+  position: absolute;
+  bottom: 10%;
+  margin-bottom: 50%;
+}
+
 .fnt_30 {
   font-size: 30px;
 }
@@ -270,10 +282,6 @@ a {
   overflow: hidden;
   line-height: 1.5;
   height: 6em;
-}
-.s_b_text h1,
-.s_b_text h4 {
-  color: #fff;
 }
 .fnt_30 {
   font-size: 30px;

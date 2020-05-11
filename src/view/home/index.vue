@@ -634,9 +634,11 @@
 </template>
 
 <script>
-// import iconfont from "../../styles/iconfont.css";
-export default {};
-</script>
+export default {
+	mounted() {
+	  this.$parent.$parent.dh();
+	}
+};</script>
 
 <style lang="less">
 #main {

@@ -141,7 +141,8 @@ export default {
     .logo {
       position: absolute;
       left: 0;
-      bottom: 0px;
+	  top: -100px;
+      // bottom: 0px;
 
       // background-color: #2e3092;
       img {

@@ -34,44 +34,9 @@ export default {
     return {
       current: -1,
       navBar: [
-        { name: "网站首页", to: "/home" },
+        { name: "首页", to: "/home" },
         {
-          name: "企业风采",
-          to: "/enterprise",
-          children: [
-            { name: "企业活动", to: "/enterprise" },
-            { name: "员工生活", to: "/life" }
-          ]
-        },
-        {
-          name: "新闻公告",
-          to: "/news",
-          children: [
-            { name: "企业新闻", to: "/news" },
-            { name: "行业新闻", to: "/hyxw" },
-            { name: "企业公告", to: "/gsgg" },
-            { name: "政策法规", to: "/zcfg" }
-          ]
-        },
-        {
-          name: "社会责任",
-          to: "/shzr",
-          children: [
-            { name: "社会公益", to: "/shzr" },
-            { name: "科技创新", to: "/kjcx" }
-          ]
-        },
-        {
-          name: "业务平台",
-          to: "/wssc",
-          children: [
-            { name: "用热报装", to: "/yrbzpt" },
-            { name: "网上营业厅", to: "/yewu" },
-            { name: "网上商城", to: "/wssc" }
-          ]
-        },
-        {
-          name: "关于我们",
+          name: "我们",
           to: "/we",
           children: [
             { name: "公司简介", to: "/we" },
@@ -84,10 +49,37 @@ export default {
             { name: "人才招聘", to: "/job" }
           ]
         },
+          {
+          name: "智慧供热",
+          to: "/zhgr",
+        },
         {
-          name: "在线留言",
-          to: "/zxly",
-          children: [{ name: "投诉建议", to: "/tsjy" }]
+          name: "服务",
+          to: "/fw",
+          children: [
+            { name: "用热报装", to: "/yrbzpt" },
+            { name: "网上营业厅", to: "/yewu" },
+            { name: "网上商城", to: "/wssc" },
+            { name: "投诉建议", to: "/tsjy" }
+          ]
+        },
+        {
+          name: "投资者",
+          to: "/tzz",  
+        },
+        {
+          name: "新闻资讯",
+          to: "/news",
+          children: [
+            { name: "企业新闻", to: "/news" },
+            { name: "行业新闻", to: "/hyxw" },
+            { name: "企业公告", to: "/gsgg" },
+            { name: "政策法规", to: "/zcfg" }
+          ]
+        },
+        {
+          name: "合作伙伴",
+          to: "/hzhb",
         }
       ]
     };
